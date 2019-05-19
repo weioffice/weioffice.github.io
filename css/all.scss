@@ -1,5 +1,9 @@
 @import "cssRest";
 
+.clearfix{
+    clear: both;
+}
+
 .site_wrapper{
     .header{
         width: 100%;
@@ -16,7 +20,29 @@
         }
     }
 
-    .clearfix{
-        clear: both;
+    .content{
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+        .contentImage1{
+            width: 33.33333%;
+            height: 352px;
+            float: left;
+            background: red;
+        }
+        .contentImage2{
+            width: 33.33333%;
+            height: 352px;
+            float: left;
+            background: yellow;
+        }
+        .contentImage3{
+            width: 33.33333%;
+            height: 352px;
+            float: left;
+            background: blue;
+            
+        }
     }
+
 }

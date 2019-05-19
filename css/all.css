@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url(/Users/lavatar/Desktop/project/璽藝廊_20190519/css/_cssRest.css);
+.clearfix {
+  clear: both;
+}
+
 .site_wrapper .header {
   width: 100%;
   margin: 0 auto;
@@ -15,7 +19,30 @@
   float: right;
 }
 
-.site_wrapper .clearfix {
-  clear: both;
+.site_wrapper .content {
+  width: 100%;
+  margin: 0 auto;
+  float: left;
+}
+
+.site_wrapper .content .contentImage1 {
+  width: 33.33333%;
+  height: 352px;
+  float: left;
+  background: red;
+}
+
+.site_wrapper .content .contentImage2 {
+  width: 33.33333%;
+  height: 352px;
+  float: left;
+  background: yellow;
+}
+
+.site_wrapper .content .contentImage3 {
+  width: 33.33333%;
+  height: 352px;
+  float: left;
+  background: blue;
 }
 /*# sourceMappingURL=all.css.map */
