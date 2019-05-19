@@ -9,12 +9,20 @@
         width: 100%;
         margin: 0 auto;
         float: left;
-        .logoImage{
-            width: 165px;
-            height: 94px;
+
+        .logo{
+            width: 75%;
+            float: left;
+            .logoImage{
+                width: 165px;
+                height: 94px;
+                float: left;
+            }
         }
+        
 
         .menu{
+            width: 25%;
             float: right;
             
         }
@@ -42,6 +50,27 @@
             float: left;
             background: blue;
             
+        }
+    }
+
+    .footer{
+        .mark{
+            width: 75%;
+            float: left;
+
+            .p{
+                float: left;
+            }
+        }
+
+        .icon{
+            width: 25%;
+            float: right;
+            .iconImage{
+                width: 79.4px;
+                height: 61.7px;
+                float: left;
+            }
         }
     }
 

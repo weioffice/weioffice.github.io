@@ -10,12 +10,19 @@
   float: left;
 }
 
-.site_wrapper .header .logoImage {
+.site_wrapper .header .logo {
+  width: 75%;
+  float: left;
+}
+
+.site_wrapper .header .logo .logoImage {
   width: 165px;
   height: 94px;
+  float: left;
 }
 
 .site_wrapper .header .menu {
+  width: 25%;
   float: right;
 }
 
@@ -44,5 +51,25 @@
   height: 352px;
   float: left;
   background: blue;
+}
+
+.site_wrapper .footer .mark {
+  width: 75%;
+  float: left;
+}
+
+.site_wrapper .footer .mark .p {
+  float: left;
+}
+
+.site_wrapper .footer .icon {
+  width: 25%;
+  float: right;
+}
+
+.site_wrapper .footer .icon .iconImage {
+  width: 79.4px;
+  height: 61.7px;
+  float: left;
 }
 /*# sourceMappingURL=all.css.map */
