@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url(/Users/lavatar/Desktop/project/璽藝廊_20190519/css/_cssRest.css);
+.site_wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c7c7c7));
+  background: linear-gradient(#ffffff, #c7c7c7);
+}
+
+.site_wrapper .header {
+  position: relative;
+  height: 382px;
+}
+
+.site_wrapper .header .logo {
+  position: absolute;
+  top: 79px;
+  left: 64px;
+}
+
+.site_wrapper .header .logo a {
+  display: block;
+  width: 165px;
+  text-indent: -99999px;
+  height: 94px;
+  background: url(../images/logo.png);
+}
+
+.site_wrapper .header .menu {
+  float: right;
+  margin: 112px 129px auto auto;
+}
+
+.site_wrapper .header .menu li {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.site_wrapper .header .menu li a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+.site_wrapper .header .menu li a:visited {
+  color: #000;
+}
+
+.site_wrapper .header .menu li a:hover {
+  color: #5a5858;
+}
+
+.site_wrapper .content {
+  width: 100%;
+  height: 352px;
+}
+
+.site_wrapper .content .contentImage1 {
+  width: 33.33333%;
+  height: 352px;
+  float: left;
+  background: red;
+}
+
+.site_wrapper .content .contentImage2 {
+  width: 33.33333%;
+  height: 352px;
+  float: left;
+  background: yellow;
+}
+
+.site_wrapper .content .contentImage3 {
+  width: 33.33333%;
+  height: 352px;
+  float: left;
+  background: blue;
+}
+
+.site_wrapper .footer {
+  width: 100%;
+}
+
+.site_wrapper .footer .mark {
+  margin: 227px auto 44px 53px;
+  float: left;
+}
+
+.site_wrapper .footer .mark p {
+  font-size: 14px;
+  font-weight: 300px;
+  letter-spacing: 1px;
+  color: #4a4a4a;
+}
+
+.site_wrapper .footer .icon {
+  margin: auto 73.6px 65.4px auto;
+  float: right;
+}
+
+.site_wrapper .footer .icon a {
+  margin: 163.9px 73.6px 65.4px auto;
+  display: block;
+  width: 80px;
+  text-indent: -99999px;
+  height: 80px;
+  background: url(../images/icon.png);
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
