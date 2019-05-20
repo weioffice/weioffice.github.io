@@ -4,32 +4,40 @@
   clear: both;
 }
 
-.site_wrapper .header {
+.site_wrapper {
   width: 100%;
-  margin: 0 auto;
-  float: left;
+  position: relative;
+}
+
+.site_wrapper .header {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .site_wrapper .header .logo {
-  width: 75%;
   float: left;
 }
 
 .site_wrapper .header .logo .logoImage {
+  margin: 79px auto auto 64px;
   width: 165px;
   height: 94px;
-  float: left;
 }
 
 .site_wrapper .header .menu {
-  width: 25%;
+  margin: 112px 129px auto auto;
   float: right;
 }
 
 .site_wrapper .content {
-  width: 100%;
-  margin: 0 auto;
-  float: left;
+  position: absolute;
+  top: 382px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .site_wrapper .content .contentImage1 {
@@ -53,23 +61,26 @@
   background: blue;
 }
 
-.site_wrapper .footer .mark {
-  width: 75%;
-  float: left;
+.site_wrapper .footer {
+  position: absolute;
+  top: 800px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-.site_wrapper .footer .mark .p {
+.site_wrapper .footer .mark {
+  margin: auto 44px 53px;
   float: left;
 }
 
 .site_wrapper .footer .icon {
-  width: 25%;
+  margin: auto 73.6px 65.4px auto;
   float: right;
 }
 
 .site_wrapper .footer .icon .iconImage {
   width: 79.4px;
   height: 61.7px;
-  float: left;
 }
 /*# sourceMappingURL=all.css.map */
