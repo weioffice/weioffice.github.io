@@ -85,17 +85,13 @@ div {
         height: 382px;
         position: relative;
 
-        .logoImage {
+        .logo_image {
             position: absolute;
             top: 79px;
             left: 64px;
-
-            a {
-                display: block;
+            &.logo{
                 width: 165px;
-                text-indent: -99999px;
                 height: 94px;
-                background: url(../images/logo.png);
             }
         }
 
@@ -130,39 +126,25 @@ div {
         width: 100%;
         margin: 0 auto;
 
-        .contentImage1 {
+        .content_image {
             width: 33.33333%;
             height: 352px;
             float: left;
-            text-indent: -99999px;
-            background-image: url(../images/contentImage1.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+            &.first{
+                background-image: url(../images/contentImage1.jpg);
+            }
+            &.second{
+                background-image: url(../images/contentImage2.jpg);
+            }
+            &.third{
+                background-image: url(../images/contentImage3.jpg);
+            }
         }
+        
 
-        .contentImage2 {
-            width: 33.33333%;
-            height: 352px;
-            float: left;
-            text-indent: -99999px;
-            background-image: url(../images/contentImage2.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-
-        .contentImage3 {
-            width: 33.33333%;
-            height: 352px;
-            float: left;
-            text-indent: -99999px;
-            background-image: url(../images/contentImage3.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-
-        }
     }
 
     @media (max-width: 767px) {

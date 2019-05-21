@@ -85,18 +85,15 @@ div {
   position: relative;
 }
 
-.site_wrapper .header .logoImage {
+.site_wrapper .header .logo_image {
   position: absolute;
   top: 79px;
   left: 64px;
 }
 
-.site_wrapper .header .logoImage a {
-  display: block;
+.site_wrapper .header .logo_image.logo {
   width: 165px;
-  text-indent: -99999px;
   height: 94px;
-  background: url(../images/logo.png);
 }
 
 .site_wrapper .header .menu {
@@ -128,37 +125,25 @@ div {
   margin: 0 auto;
 }
 
-.site_wrapper .content .contentImage1 {
+.site_wrapper .content .content_image {
   width: 33.33333%;
   height: 352px;
   float: left;
-  text-indent: -99999px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.site_wrapper .content .content_image.first {
   background-image: url(../images/contentImage1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.site_wrapper .content .contentImage2 {
-  width: 33.33333%;
-  height: 352px;
-  float: left;
-  text-indent: -99999px;
+.site_wrapper .content .content_image.second {
   background-image: url(../images/contentImage2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.site_wrapper .content .contentImage3 {
-  width: 33.33333%;
-  height: 352px;
-  float: left;
-  text-indent: -99999px;
+.site_wrapper .content .content_image.third {
   background-image: url(../images/contentImage3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 @media (max-width: 767px) {
