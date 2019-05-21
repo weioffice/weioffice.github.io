@@ -1,24 +1,28 @@
 @charset "UTF-8";
 @import url(/Users/lavatar/Desktop/project/璽藝廊_20190519/css/_cssRest.css);
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 .site_wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c7c7c7));
   background: linear-gradient(#ffffff, #c7c7c7);
 }
 
 .site_wrapper .header {
-  position: relative;
   height: 382px;
+  position: relative;
 }
 
-.site_wrapper .header .logo {
+.site_wrapper .header .logoImage {
   position: absolute;
   top: 79px;
   left: 64px;
 }
 
-.site_wrapper .header .logo a {
+.site_wrapper .header .logoImage a {
   display: block;
   width: 165px;
   text-indent: -99999px;
@@ -59,21 +63,66 @@
   width: 33.33333%;
   height: 352px;
   float: left;
-  background: red;
+  text-indent: -99999px;
+  background-image: url(../images/contentImage1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .site_wrapper .content .contentImage2 {
   width: 33.33333%;
   height: 352px;
   float: left;
-  background: yellow;
+  text-indent: -99999px;
+  background-image: url(../images/contentImage2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .site_wrapper .content .contentImage3 {
   width: 33.33333%;
   height: 352px;
   float: left;
-  background: blue;
+  text-indent: -99999px;
+  background-image: url(../images/contentImage3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .site_wrapper .header {
+    height: 392px;
+  }
+  .site_wrapper .content {
+    width: 100%;
+    height: 273px;
+  }
+  .site_wrapper .content .contentImage1 {
+    width: 50.0%;
+    height: 273px;
+    float: left;
+    text-indent: -99999px;
+    background-image: url(../images/contentImage1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .site_wrapper .content .contentImage2 {
+    display: none;
+  }
+  .site_wrapper .content .contentImage3 {
+    width: 50.0%;
+    height: 273px;
+    float: left;
+    text-indent: -99999px;
+    background-image: url(../images/contentImage3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .site_wrapper .footer {
@@ -81,6 +130,7 @@
 }
 
 .site_wrapper .footer .mark {
+  display: block;
   margin: 227px auto 44px 53px;
   float: left;
 }
@@ -104,11 +154,5 @@
   text-indent: -99999px;
   height: 80px;
   background: url(../images/icon.png);
-}
-
-.clearfix:after {
-  clear: both;
-  content: "";
-  display: block;
 }
 /*# sourceMappingURL=style.css.map */
