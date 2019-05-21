@@ -8,6 +8,7 @@
         display: block;
     }
 }
+
 body {
     width: 100%;
     font-size: 14px;
@@ -39,28 +40,34 @@ li {
 a {
     text-decoration: none;
     color: inherit;
+
     &:hover {
         text-decoration: none;
         color: inherit;
     }
+
     &:visited {
         text-decoration: none;
         color: inherit;
     }
+
     &:hover {
         text-decoration: none;
         color: inherit;
     }
+
     &:focus {
         color: inherit;
         outline: none;
     }
+
     &:active {
         color: inherit;
         outline: none;
     }
 }
-p{
+
+p {
     margin: 0 0 0.2rem;
 }
 
@@ -82,7 +89,7 @@ div {
             position: absolute;
             top: 79px;
             left: 64px;
- 
+
             a {
                 display: block;
                 width: 165px;
@@ -121,7 +128,7 @@ div {
 
     .content {
         width: 100%;
-        height: 352px;
+        margin: 0 auto;
 
         .contentImage1 {
             width: 33.33333%;
@@ -159,38 +166,141 @@ div {
     }
 
     @media (max-width: 767px) {
-        .header{
+        .header {
+            width: 100%;
             height: 392px;
+            position: relative;
+
+            .logoImage {
+                position: absolute;
+                top: 79px;
+                left: 64px;
+
+                a {
+                    display: block;
+                    width: 165px;
+                    text-indent: -99999px;
+                    height: 94px;
+                    background: url(../images/logo.png);
+                }
+            }
+
+            .menu {
+                display: none;
+
+            }
         }
-        .content{
+
+        .content {
             width: 100%;
             height: 273px;
-            .contentImage1{
+
+            .contentImage1 {
                 width: 50.0%;
                 height: 273px;
                 float: left;
-            text-indent: -99999px;
-            background-image: url(../images/contentImage1.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+                text-indent: -99999px;
+                background-image: url(../images/contentImage1.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
             }
-            .contentImage2{
+
+            .contentImage2 {
                 display: none;
             }
-            .contentImage3{
+
+            .contentImage3 {
                 width: 50.0%;
                 height: 273px;
                 float: left;
-            text-indent: -99999px;
-            background-image: url(../images/contentImage3.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+                text-indent: -99999px;
+                background-image: url(../images/contentImage3.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
             }
         }
-        
     }
+
+    @media (max-width: 414px) {
+        .header {
+            width: 100%;
+            height: 239px;
+            position: relative;
+
+            .logoImage {
+                position: absolute;
+                top: 38px;
+                left: 42px;
+
+                a {
+                    display: block;
+                    width: 165px;
+                    text-indent: -99999px;
+                    height: 94px;
+                    background: url(../images/logo.png);
+                }
+            }
+
+            .menu {
+                display: block;
+                float: right;
+                margin: 37px 45px auto auto;
+
+                li {
+                    font-size: 17px;
+                    font-weight: 600;
+                    letter-spacing: 1.2px;
+
+                    a {
+                        color: #4a4a4a;
+                        text-decoration: none;
+
+                        &:visited {
+                            color: #000;
+                        }
+
+                        &:hover {
+                            color: #5a5858;
+                        }
+                    }
+                }
+            }
+        }
+
+        .content {
+            width: 100%;
+            height: 546px;
+
+            .contentImage1 {
+                width: 100%;
+                height: 273px;
+                float: left;
+                text-indent: -99999px;
+                background-image: url(../images/contentImage1.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .contentImage2 {
+                display: none;
+            }
+
+            .contentImage3 {
+                width: 100%;
+                height: 273px;
+                float: left;
+                text-indent: -99999px;
+                background-image: url(../images/contentImage3.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+
 
     .footer {
         width: 100%;
@@ -220,8 +330,58 @@ div {
                 text-indent: -99999px;
                 height: 80px;
                 background: url(../images/icon.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
             }
         }
+
     }
+
+    @media (max-width: 414px) {
+        .footer {
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+
+            .mark {
+                width: 100%;
+                display: block;
+                margin: 206px auto 13px 17.49758%;
+                position: absolute;
+
+                font-size: 14px;
+                font-weight: 300px;
+                letter-spacing: 1px;
+                color: #4a4a4a;
+
+            }
+
+
+            .icon {
+                width: 100%;
+                margin: 0 auto;
+                position: absolute;
+
+                a {
+                    margin: 139px 45% auto 45%;
+                    display: block;
+                    width: 42px;
+                    text-indent: -99999px;
+                    height: 42px;
+                    background: url(../images/icon.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+
+        }
+
+
+    }
+
+
+
 
 }
