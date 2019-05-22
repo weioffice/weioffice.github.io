@@ -470,13 +470,16 @@ div {
 
 /* aboutPage */
 .content {
+    width: 100%;
+    margin: 0 auto;
     .about_content{
-        .about_image{
-            width: 33.33333%;
+        width: 30.69445%;
             height: 352px;
             margin-top: 1%;
             margin-left: 19.30555%;
             float: left;
+
+        .about_image{   
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -484,9 +487,10 @@ div {
     }
 
     .about_textLabel{
-        width: 21.38888%;
+        width: 24.02778%;
         height: 377px;
         margin-left: 6.73611%;
+        margin-right: 19.23611%; 
         float: left;
 
         .about_header{
@@ -499,6 +503,45 @@ div {
 
         }
 
+    }
+
+    @media (max-width: 768px) {
+        .header{
+            .menu_list{
+                width: 30%;
+                margin-top: 79px;
+                margin-left: 20%;
+            }
+        }
+
+        .content { 
+
+            .content_image {
+                width: 50%;
+                height: 273px;
+
+                
+
+            }
+        }
+
+        .footer{
+
+            .icon{
+                width: 15.66667%;
+                margin-top: 242px;
+                margin-left: 34.33333%;
+                margin-bottom: 43px; 
+                .icon_image {
+                    width: 79.4px;
+                    height: 64px;
+                }
+            }
+            .mark{
+                margin-top: 296px;
+                margin-bottom: 43px;
+            }
+        }
     }
 
 }
