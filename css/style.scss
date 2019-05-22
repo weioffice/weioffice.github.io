@@ -253,7 +253,28 @@ div {
 
     }
 
+}
 
+/* aboutPage */
+.content {
+    .about_content{
+        .about_image{
+            width: 33.33333%;
+            height: 352px;
+            margin-left: 19.30555%;
+            float: left;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
 
+    .about_textLabel{
+        width: 21.38888%;
+        height: 377px;
+        margin-left: 6.73611%;
+        float: left;
+
+    }
 
 }
