@@ -354,3 +354,26 @@ div {
           font-size: 14px;
           letter-spacing: 1px;
           text-align: center; } }
+
+/* aboutPage */
+.content .about_content .about_image {
+  width: 33.33333%;
+  height: 352px;
+  margin-top: 1%;
+  margin-left: 19.30555%;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.content .about_textLabel {
+  width: 21.38888%;
+  height: 377px;
+  margin-left: 6.73611%;
+  float: left; }
+  .content .about_textLabel .about_header {
+    font-size: 69px;
+    padding-bottom: 69px; }
+  .content .about_textLabel .about_substance {
+    color: #4a4a4a;
+    line-height: 20px; }
