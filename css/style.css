@@ -381,22 +381,74 @@ div {
     .content .about_textLabel .about_substance {
       color: #4a4a4a;
       line-height: 20px; }
-  @media (max-width: 768px) {
-    .content .header .menu_list {
-      width: 30%;
-      margin-top: 79px;
-      margin-left: 20%; }
-    .content .content .content_image {
-      width: 50%;
-      height: 273px; }
-    .content .footer .icon {
-      width: 15.66667%;
-      margin-top: 242px;
-      margin-left: 34.33333%;
-      margin-bottom: 43px; }
-      .content .footer .icon .icon_image {
-        width: 79.4px;
-        height: 64px; }
-    .content .footer .mark {
-      margin-top: 296px;
-      margin-bottom: 43px; } }
+
+@media (max-width: 768px) {
+  .header .logo {
+    width: 37.5%;
+    margin-top: 38px;
+    margin-left: 12.5%; }
+    .header .logo .logo_image {
+      width: 80px;
+      height: 65px; }
+  .header .menu_list {
+    width: 40.3125%;
+    margin-top: 37px;
+    margin-left: 9.6875%; }
+  .content .about_content {
+    width: 40%;
+    height: 352px;
+    margin-left: 10%; }
+  .content .about_textLabel .about_header {
+    font-size: 50px;
+    padding-bottom: 50px; }
+  .footer .icon {
+    width: 15.66667%;
+    margin-top: 242px;
+    margin-left: 34.33333%;
+    margin-bottom: 43px; }
+    .footer .icon .icon_image {
+      width: 79.4px;
+      height: 64px; }
+  .footer .mark {
+    margin-top: 296px;
+    margin-bottom: 43px; } }
+
+@media (max-width: 414px) {
+  .header .logo {
+    width: 37.5%;
+    margin-top: 38px;
+    margin-left: 12.5%; }
+    .header .logo .logo_image {
+      width: 80px;
+      height: 65px; }
+  .header .menu_list {
+    width: 40.3125%;
+    margin-top: 37px;
+    margin-left: 9.6875%; }
+  .content .about_content {
+    width: 100%;
+    height: 352px;
+    margin: 0 auto; }
+  .content .about_textLabel {
+    width: 100%;
+    margin: 0 auto; }
+    .content .about_textLabel .about_header {
+      font-size: 50px;
+      padding-bottom: 50px;
+      padding-left: 2%; }
+    .content .about_textLabel .about_substance {
+      padding-left: 2%;
+      padding-right: 2%; }
+  .footer {
+    width: 100%;
+    height: 235.8px;
+    margin: 0 auto; }
+    .footer .mark {
+      float: none;
+      margin: 206px auto 13px 17.49758%; }
+    .footer .icon {
+      float: none;
+      width: 100%;
+      margin: 137px 45% auto 45%;
+      width: 42px;
+      height: 42px; } }
