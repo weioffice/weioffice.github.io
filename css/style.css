@@ -150,7 +150,8 @@ div {
       .site_wrapper .header .menu_list .menu_list_li {
         font-size: 17px;
         font-weight: 600;
-        letter-spacing: 1.2px; }
+        letter-spacing: 1.2px;
+        line-height: 24px; }
         .site_wrapper .header .menu_list .menu_list_li a {
           color: #4a4a4a;
           text-decoration: none; }
@@ -206,6 +207,9 @@ div {
       .site_wrapper .header .logo_image {
         top: 38px;
         left: 42px; }
+        .site_wrapper .header .logo_image.logo {
+          width: 80px;
+          height: 43px; }
       .site_wrapper .header .menu_list {
         float: right;
         margin: 37px 45px auto auto; }
