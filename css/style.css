@@ -397,13 +397,15 @@ div {
     margin-left: 9.6875%; }
   .wrap .content .about_content {
     margin-left: 5%;
-    width: 90%; }
+    width: 95%;
+    float: none; }
     .wrap .content .about_content .about_image {
       width: 80%;
       height: 80%; }
   .wrap .content .about_textLabel {
+    float: none;
     width: 90%;
-    margin: auto auto;
+    margin: 0 0 0 0;
     padding-left: 5%;
     padding-right: 5%; }
     .wrap .content .about_textLabel .about_header {

@@ -502,8 +502,7 @@ div {
             margin-left: 6.73611%;
             margin-right: 19.23611%;
             float: left;
-            
-    
+
             .about_header {
                 font-size: 69px;
                 padding-bottom: 69px;
@@ -542,7 +541,8 @@ div {
         .content {
             .about_content {
                 margin-left: 5%;
-                width: 90%;
+                width: 95%;
+                float: none;
     
                 .about_image{
                     width: 80%;
@@ -553,8 +553,9 @@ div {
             }
     
             .about_textLabel {
+                float: none;
                 width: 90%;
-                margin: auto auto;
+                margin: 0 0 0 0;
                 padding-left: 5%;
                 padding-right: 5%;
                 .about_header {
