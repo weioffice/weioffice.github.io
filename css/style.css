@@ -281,7 +281,8 @@ div {
   .wrap .footer {
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 44px; }
+    padding-bottom: 44px;
+    margin-top: 0.0001%; }
     .wrap .footer .icon {
       width: 40%;
       float: right;
@@ -336,12 +337,12 @@ div {
         width: 100%;
         height: 273px; }
     .wrap .footer .icon {
-      display: inline;
       float: none;
-      width: 100%;
-      margin: auto 45% auto 45%; }
+      width: 100%; }
       .wrap .footer .icon .icon_image {
         float: none;
+        display: block;
+        margin: auto;
         width: 40px;
         height: 40px; }
     .wrap .footer .mark {

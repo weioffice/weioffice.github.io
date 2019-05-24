@@ -341,13 +341,14 @@ div {
         padding-left: 10%;
         padding-right: 10%;
         padding-bottom: 44px;
-        
+        margin-top: 0.0001%;
+
         .icon {
             width: 40%;
             float: right;
             // margin-top: 147px;
             margin-left: auto;
-            margin-bottom: auto; 
+            margin-bottom: auto;
             padding-top: 14.1927%;
 
             .icon_image {
@@ -395,15 +396,17 @@ div {
         }
 
         .footer {
-            
+
             .icon {
                 width: 20%;
                 // margin-top: 157px;
-                
+
                 .icon_image {
+
                     width: 70px;
                     height: 70px;
                 }
+
             }
 
             .mark {
@@ -447,16 +450,18 @@ div {
             // margin-top: 100px;
 
             .icon {
-                display: inline;
                 float: none;
                 width: 100%;
-                margin: auto 45% auto 45%;
+
 
                 .icon_image {
                     float: none;
+                    display: block;
+                    margin: auto;
                     width: 40px;
                     height: 40px;
                 }
+
             }
 
 
@@ -480,15 +485,15 @@ div {
 }
 
 /* aboutPage */
-.wrap{
+.wrap {
     .content {
-    
+
         .about_content {
             width: 30.69445%;
             margin-top: 1%;
             margin-left: 19.30555%;
             float: left;
-    
+
             .about_image {
                 width: 100%;
                 height: 352px;
@@ -497,7 +502,7 @@ div {
                 background-position: center;
             }
         }
-    
+
         .about_textLabel {
             width: 24.02778%;
             margin-left: 6.73611%;
@@ -508,82 +513,30 @@ div {
                 font-size: 69px;
                 padding-bottom: 69px;
             }
-    
+
             .about_substance {
                 color: #4a4a4a;
                 line-height: 20px;
-    
+
             }
-    
+
         }
-    
+
     }
-    
+
     @media (max-width: 768px) {
         .header {
             .logo {
                 width: 37.5%;
                 margin-top: 38px;
                 margin-left: 12.5%;
-    
+
                 .logo_image {
                     width: 80px;
                     height: 65px;
                 }
             }
-    
-            .menu_list {
-                width: 40.3125%;
-                margin-top: 37px;
-                margin-left: 9.6875%;
-            }
-        }
-    
-        .content {
-            .about_content {
-                margin-left: 5%;
-                width: 95%;
-                float: none;
-    
-                .about_image{
-                    width: 80%;
-                    height: 80%;
-    
-                }
-    
-            }
-    
-            .about_textLabel {
-                float: none;
-                width: 90%;
-                margin: 0 0 0 0;
-                padding-left: 5%;
-                padding-right: 5%;
-                .about_header {
-                    font-size: 50px;
-                    padding-bottom: 50px;
-                }
-               
-    
-            }
-        }
-    
-      
-    }
-    
-    @media (max-width: 414px) {
-        .header {
-            .logo {
-                width: 37.5%;
-                margin-top: 38px;
-                margin-left: 12.5%;
-    
-                .logo_image {
-                    width: 80px;
-                    height: 65px;
-                }
-            }
-    
+
             .menu_list {
                 width: 40.3125%;
                 margin-top: 37px;
@@ -591,19 +544,72 @@ div {
             }
         }
 
-        .content{
+        .content {
+            .about_content {
+                margin-left: 5%;
+                width: 95%;
+                float: none;
+
+                .about_image {
+                    width: 80%;
+                    height: 80%;
+
+                }
+
+            }
+
+            .about_textLabel {
+                float: none;
+                width: 90%;
+                margin: 0 0 0 0;
+                padding-left: 5%;
+                padding-right: 5%;
+
+                .about_header {
+                    font-size: 50px;
+                    padding-bottom: 50px;
+                }
+
+
+            }
+        }
+
+
+    }
+
+    @media (max-width: 414px) {
+        .header {
+            .logo {
+                width: 37.5%;
+                margin-top: 38px;
+                margin-left: 12.5%;
+
+                .logo_image {
+                    width: 80px;
+                    height: 65px;
+                }
+            }
+
+            .menu_list {
+                width: 40.3125%;
+                margin-top: 37px;
+                margin-left: 9.6875%;
+            }
+        }
+
+        .content {
             .about_content {
                 width: 100%;
                 margin: 0 auto;
-    
-                .about_image{
+
+                .about_image {
                     width: 100%;
-    
+
                 }
-    
+
             }
         }
-    
+
     }
 
 }
