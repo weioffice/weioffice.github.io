@@ -338,22 +338,27 @@ div {
     }
 
     .footer {
+        padding-left: 10%;
+        padding-right: 10%;
         .icon {
-            width: 10.66667%;
+            width: 40%;
+            // width: 10.66667%;
             float: right;
             margin-top: 163.9px;
-            margin-left: 39.33333%;
+            // margin-left: 39.33333%;
 
             .icon_image {
+                float: right;
                 width: 80px;
                 height: 80px;
             }
         }
 
         .mark {
-            width: 46.3195%;
+            width: 40%;
+            // width: 46.3195%;
             margin-top: 227px;
-            margin-left: 3.6805%;
+            // margin-left: 3.6805%;
             margin-bottom: 44px;
             float: left;
 

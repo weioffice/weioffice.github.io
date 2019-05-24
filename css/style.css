@@ -278,25 +278,27 @@ div {
         background-image: url(../images/contentImage2.jpg); }
       .wrap .content .content_image.right {
         background-image: url(../images/contentImage3.jpg); }
-  .wrap .footer .icon {
-    width: 10.66667%;
-    float: right;
-    margin-top: 163.9px;
-    margin-left: 39.33333%; }
-    .wrap .footer .icon .icon_image {
-      width: 80px;
-      height: 80px; }
-  .wrap .footer .mark {
-    width: 46.3195%;
-    margin-top: 227px;
-    margin-left: 3.6805%;
-    margin-bottom: 44px;
-    float: left; }
-    .wrap .footer .mark .mark_label {
-      font-size: 14px;
-      font-weight: 300px;
-      letter-spacing: 1px;
-      color: #4a4a4a; }
+  .wrap .footer {
+    padding-left: 10%;
+    padding-right: 10%; }
+    .wrap .footer .icon {
+      width: 40%;
+      float: right;
+      margin-top: 163.9px; }
+      .wrap .footer .icon .icon_image {
+        float: right;
+        width: 80px;
+        height: 80px; }
+    .wrap .footer .mark {
+      width: 40%;
+      margin-top: 227px;
+      margin-bottom: 44px;
+      float: left; }
+      .wrap .footer .mark .mark_label {
+        font-size: 14px;
+        font-weight: 300px;
+        letter-spacing: 1px;
+        color: #4a4a4a; }
   @media (max-width: 768px) {
     .wrap .header .menu_list {
       width: 30%;
