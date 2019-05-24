@@ -359,75 +359,71 @@ div {
           text-align: center; } }
 
 /* aboutPage */
-.content {
-  width: 100%;
-  margin: 0 auto; }
-  .content .about_content {
-    width: 30.69445%;
-    height: 352px;
-    margin-top: 1%;
-    margin-left: 19.30555%;
-    float: left; }
-    .content .about_content .about_image {
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center; }
-  .content .about_textLabel {
-    width: 24.02778%;
-    height: 377px;
-    margin-left: 6.73611%;
-    margin-right: 19.23611%;
-    float: left; }
-    .content .about_textLabel .about_header {
-      font-size: 69px;
-      padding-bottom: 69px; }
-    .content .about_textLabel .about_substance {
-      color: #4a4a4a;
-      line-height: 20px; }
+.wrap .content .about_content {
+  width: 30.69445%;
+  height: 352px;
+  margin-top: 1%;
+  margin-left: 19.30555%;
+  float: left; }
+  .wrap .content .about_content .about_image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.wrap .content .about_textLabel {
+  width: 24.02778%;
+  height: 377px;
+  margin-left: 6.73611%;
+  margin-right: 19.23611%;
+  float: left; }
+  .wrap .content .about_textLabel .about_header {
+    font-size: 69px;
+    padding-bottom: 69px; }
+  .wrap .content .about_textLabel .about_substance {
+    color: #4a4a4a;
+    line-height: 20px; }
 
 @media (max-width: 768px) {
-  .header .logo {
+  .wrap .header .logo {
     width: 37.5%;
     margin-top: 38px;
     margin-left: 12.5%; }
-    .header .logo .logo_image {
+    .wrap .header .logo .logo_image {
       width: 80px;
       height: 65px; }
-  .header .menu_list {
+  .wrap .header .menu_list {
     width: 40.3125%;
     margin-top: 37px;
     margin-left: 9.6875%; }
-  .content .about_content {
-    width: 40%;
-    height: 352px;
-    margin-left: 10%; }
-  .content .about_textLabel .about_header {
-    font-size: 50px;
-    padding-bottom: 50px; } }
+  .wrap .content .about_content {
+    margin-left: 5%;
+    width: 90%; }
+    .wrap .content .about_content .about_image {
+      width: 80%;
+      height: 80%; }
+  .wrap .content .about_textLabel {
+    width: 90%;
+    margin: auto auto;
+    padding-left: 5%;
+    padding-right: 5%; }
+    .wrap .content .about_textLabel .about_header {
+      font-size: 50px;
+      padding-bottom: 50px; } }
 
 @media (max-width: 414px) {
-  .header .logo {
+  .wrap .header .logo {
     width: 37.5%;
     margin-top: 38px;
     margin-left: 12.5%; }
-    .header .logo .logo_image {
+    .wrap .header .logo .logo_image {
       width: 80px;
       height: 65px; }
-  .header .menu_list {
+  .wrap .header .menu_list {
     width: 40.3125%;
     margin-top: 37px;
     margin-left: 9.6875%; }
-  .content .about_content {
-    width: 100%;
-    height: 352px;
-    margin: 0 auto; }
-  .content .about_textLabel {
+  .wrap .content .about_content {
     width: 100%;
     margin: 0 auto; }
-    .content .about_textLabel .about_header {
-      font-size: 50px;
-      padding-bottom: 50px;
-      padding-left: 2%; }
-    .content .about_textLabel .about_substance {
-      padding-left: 2%;
-      padding-right: 2%; } }
+    .wrap .content .about_content .about_image {
+      width: 100%; } }
