@@ -351,7 +351,7 @@ div {
       .wrap .footer .mark {
         float: none;
         width: 100%;
-        margin: 36.2px auto 0 auto;
+        margin-top: 33px;
         padding-bottom: 13px; }
         .wrap .footer .mark .mark_label {
           font-size: 14px;
