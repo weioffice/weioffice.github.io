@@ -345,9 +345,10 @@ div {
         .icon {
             width: 40%;
             float: right;
-            margin-top: 147px;
+            // margin-top: 147px;
             margin-left: auto;
             margin-bottom: auto; 
+            padding-top: 14.1927%;
 
             .icon_image {
                 float: right;
@@ -358,8 +359,8 @@ div {
 
         .mark {
             width: 40%;
-            margin-top: 227px;
             float: left;
+            padding-top: 20.17777%;
 
             .mark_label {
                 font-size: 14px;
@@ -397,7 +398,7 @@ div {
             
             .icon {
                 width: 20%;
-                margin-top: 157px;
+                // margin-top: 157px;
                 
                 .icon_image {
                     width: 70px;
@@ -407,7 +408,7 @@ div {
 
             .mark {
                 width: 60%;
-                margin-top: 227px;
+                // margin-top: 227px;
             }
         }
     }
@@ -443,7 +444,7 @@ div {
 
 
         .footer {
-            margin-top: 100px;
+            // margin-top: 100px;
 
             .icon {
                 display: inline;
@@ -462,7 +463,7 @@ div {
             .mark {
                 float: none;
                 width: 100%;
-                margin-top: 33px; 
+                // margin-top: 33px; 
                 padding-bottom: 13px;
 
                 .mark_label {
@@ -484,12 +485,13 @@ div {
     
         .about_content {
             width: 30.69445%;
-            height: 352px;
             margin-top: 1%;
             margin-left: 19.30555%;
             float: left;
     
             .about_image {
+                width: 100%;
+                height: 352px;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -498,7 +500,6 @@ div {
     
         .about_textLabel {
             width: 24.02778%;
-            height: 377px;
             margin-left: 6.73611%;
             margin-right: 19.23611%;
             float: left;
