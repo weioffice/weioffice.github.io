@@ -6,45 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>璽藝廊</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/all.js"></script>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
 </head>
 
 <body>
     <div class="wrap">
         <div class="header clearfix">
+            <!-- logo 圖 -->
             <div class="logo">
                 <a href="index.html"><img src="images/logo.png" alt="logo" class="logo_image"></a>
             </div>
-            <div class="menu_list">
+            <!-- 主選單 -->
+            <nav class="menu_list">
                 <ul>
+                    <li class="menu_list_li"><a href="#_Gallery">Gallery</a></li>
                     <li class="menu_list_li"><a href="aboutPage.html">About</a></li>
-                    <li class="menu_list_li"><a href="#">Artist</a></li>
-                    <li class="menu_list_li"><a href="#">Contact</a></li>
-                    <li class="menu_list_li"><a href="#">Online shop</a></li>
-                    <li class="menu_list_li"><a href="#">FaceBook</a></li>
-                    <li class="menu_list_li"><a href="#">Twitter</a></li>
+                    <li class="menu_list_li"><a href="#_Contact ">Contact</a></li>
+                    <!-- 圖標選單 -->
+                    <nav class="menu_list_custom_img">
+                        <a href="#facebook"><i class="fab fa-facebook-square img-style"></i></a>
+                        <a href="#shoping-cart"><i class="fas fa-shopping-cart img-style"></i></a>
+                    </nav>
                 </ul>
-            </div>
+            </nav>
         </div>
         <div class="content clearfix">
-            <a href="#" class="content_image left"></a>
-            <a href="#" class="content_image middle"></a>
-            <a href="#" class="content_image right"></a>
+            <div class="content_img_div">
+                <!-- 輪播畫面 -->
+                <div>
+                    <a href="#" class="content_image img_1"></a>
+                </div>
+                <div>
+                    <a href="#" class="content_image img_2"></a>
+                </div>
+                <div>
+                    <a href="#" class="content_image img_3"></a>
+                </div>
+                <div>
+                    <a href="#" class="content_image img_4"></a>
+                </div>
+                <div>
+                    <a href="#" class="content_image img_5"></a>
+                </div>
+                <div>
+                    <a href="#" class="content_image img_6"></a>
+                </div>
+
+
+            </div>
+
 
         </div>
         <div class="footer clearfix">
-            <div class="icon">
-                <img src="images/icon.png" alt="icon_image" class="icon_image">
-            </div>
+
+
+            <!-- 商標文字 -->
             <div class="mark">
                 <p class="mark_label">©2019 XI Gallery. all rights reserved.</p>
             </div>
 
         </div>
 
+        <!-- icon 選單 -->
+        <div class="icon">
+
+            <nav class="icon_menu js-none" id="js-slide">
+                <ul class ="icon_menu_ul">
+                    <li class="icon_menu_style" id="js-facebook">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="#" class="label" >Facbbok</a>
+                    </li >
+                    <li class="icon_menu_style">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="#" class="label">Phone</a>
+                    </li>
+                    <li class="icon_menu_style">
+                        <i class="fas fa-phone-alt"></i>
+                    </li>
+
+                </ul>
+
+            </nav>
+            <!-- icon 圖片 -->
+            <div class="icon_img_div" id="js-icon_img_div">
+                <img src="images/xi-logo.png" alt="icon_image" class="icon_img_img">
+            </div>
+        </div>
     </div>
+
+    <script src="//kit.fontawesome.com/3f2a064e79.js"></script>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    
+    <script src="./js/all.js"></script>
 </body>
 
 </html>

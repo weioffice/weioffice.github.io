@@ -1,307 +1,122 @@
-@charset "UTF-8";
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol,
-ul {
-  list-style: none; }
-
-blockquote,
-q {
-  quotes: none; }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-caption,
-th,
-td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle; }
-
-q,
-blockquote {
-  quotes: none; }
-
-q:before,
-q:after,
-blockquote:before,
-blockquote:after {
-  content: "";
-  content: none; }
-
-a img {
-  border: none; }
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
-summary {
-  display: block; }
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-img {
-  max-width: 100%;
-  height: auto; }
-
-.clearfix:after {
-  clear: both;
-  content: "";
-  display: block; }
-
-body {
-  width: 100%;
-  font-size: 14px;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  font-family: 'Pontano Sans', 'sans-serif', 'Microsoft Jhenghei', '微軟正黑體', 'Ping Feng', 'serif';
-  -webkit-text-size-adjust: none;
-  height: 100%; }
-
-html {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-size: 14px; }
-
-ul {
-  margin: 0px;
-  padding: 0px; }
-
-li {
-  list-style: none; }
-
-a {
-  text-decoration: none;
-  color: inherit; }
-  a:hover {
-    text-decoration: none;
-    color: inherit; }
-  a:visited {
-    text-decoration: none;
-    color: inherit; }
-  a:hover {
-    text-decoration: none;
-    color: inherit; }
-  a:focus {
-    color: inherit;
-    outline: none; }
-  a:active {
-    color: inherit;
-    outline: none; }
-
-p {
-  margin: 0 0 0.2rem; }
-
-div {
-  -webkit-box-sizing: border-box !important;
-  box-sizing: border-box !important; }
-
+@import url(../css/_normalize.css);
+@import url(../css/_cssResetCustom.css);
+@import url(../css/_animate_min.css);
 /* index.html*/
 .wrap {
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c7c7c7));
   background: -webkit-linear-gradient(#ffffff, #c7c7c7);
   background: -o-linear-gradient(#ffffff, #c7c7c7);
-  background: linear-gradient(#ffffff, #c7c7c7); }
+  background: linear-gradient(#ffffff, #c7c7c7);
+  position: relative; }
   .wrap .header {
     width: 100%;
-    margin: 0 auto; }
+    padding-left: 4.85rem;
+    padding-top: 5.71rem; }
     .wrap .header .logo {
       width: 45.55556%;
-      float: left;
-      margin-top: 79px;
-      margin-left: 4.44444%; }
+      float: left; }
       .wrap .header .logo .logo_image {
         width: 165px;
         height: 94px; }
     .wrap .header .menu_list {
+      display: block;
       width: 15.34723%;
-      margin-top: 112px;
-      margin-left: 34.65277%;
+      padding-top: 2.28rem;
       float: right; }
+      .wrap .header .menu_list .menu_list_custom_img {
+        padding-top: 0.5rem; }
+        .wrap .header .menu_list .menu_list_custom_img .fas {
+          margin-left: 2rem; }
+        .wrap .header .menu_list .menu_list_custom_img .img-style {
+          float: left;
+          font-size: 22px; }
       .wrap .header .menu_list .menu_list_li {
         font-size: 17px;
         font-weight: 600;
         letter-spacing: 1.2px;
-        line-height: 24px; }
+        line-height: 2rem; }
         .wrap .header .menu_list .menu_list_li a {
-          color: #4a4a4a;
-          text-decoration: none; }
+          color: #4a4a4a; }
           .wrap .header .menu_list .menu_list_li a:visited {
             color: #000; }
           .wrap .header .menu_list .menu_list_li a:hover {
             color: #5a5858; }
   .wrap .content {
     width: 100%;
-    margin: 59px auto 0 auto; }
-    .wrap .content .content_image {
-      width: 33.33333%;
+    margin: 9.6rem auto 0 auto;
+    overflow: hidden; }
+    .wrap .content .content_img_div .content_image {
+      width: 100%;
       height: 352px;
       float: left;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; }
-      .wrap .content .content_image.left {
+      .wrap .content .content_img_div .content_image.img_1 {
         background-image: url(../images/contentImage1.jpg); }
-      .wrap .content .content_image.middle {
+      .wrap .content .content_img_div .content_image.img_2 {
         background-image: url(../images/contentImage2.jpg); }
-      .wrap .content .content_image.right {
+      .wrap .content .content_img_div .content_image.img_3 {
+        background-image: url(../images/contentImage3.jpg); }
+      .wrap .content .content_img_div .content_image.img_4 {
+        background-image: url(../images/contentImage1.jpg); }
+      .wrap .content .content_img_div .content_image.img_5 {
+        background-image: url(../images/contentImage2.jpg); }
+      .wrap .content .content_img_div .content_image.img_6 {
         background-image: url(../images/contentImage3.jpg); }
   .wrap .footer {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 44px;
-    margin-top: 0.0001%; }
-    .wrap .footer .icon {
-      width: 40%;
-      float: right;
-      margin-left: auto;
-      margin-bottom: auto;
-      padding-top: 14.1927%; }
-      .wrap .footer .icon .icon_image {
-        float: right;
-        width: 80px;
-        height: 80px; }
+    padding-left: 3.78rem;
+    padding-bottom: 3.1rem; }
     .wrap .footer .mark {
-      width: 40%;
-      float: left;
-      padding-top: 20.17777%; }
+      width: auto;
+      padding-top: 15.7rem; }
       .wrap .footer .mark .mark_label {
         font-size: 14px;
         font-weight: 300px;
         letter-spacing: 1px;
         color: #4a4a4a; }
+  .wrap .icon {
+    position: absolute;
+    right: 5.26rem;
+    bottom: 3.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .wrap .icon .icon_menu {
+      padding-top: 1.8rem;
+      padding-bottom: 1rem; }
+      .wrap .icon .icon_menu.js-none {
+        display: none; }
+      .wrap .icon .icon_menu .icon_menu_style {
+        width: 40px;
+        height: 40px;
+        background: #9c2531;
+        color: #D3D3D3;
+        border-radius: 50rem;
+        font-size: 20px;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        margin-top: 1rem;
+        padding: 0.8rem; }
+        .wrap .icon .icon_menu .icon_menu_style:hover {
+          width: 100%;
+          transition: width 1s;
+          -moz-transition: width 1s;
+          -webkit-transition: width 1s;
+          -o-transition: width 1s; }
+      .wrap .icon .icon_menu .icon_img_div .icon_img_img {
+        width: 80px;
+        height: 80px; }
   @media (max-width: 768px) {
     .wrap .header .menu_list {
       width: 30%;
@@ -425,5 +240,3 @@ div {
     margin: 0 auto; }
     .wrap .content .about_content .about_image {
       width: 100%; } }
-
-/*# sourceMappingURL=style.css.map */
