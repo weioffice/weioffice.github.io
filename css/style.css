@@ -156,56 +156,15 @@
     .body_wrap .footer .mark {
       width: 100%;
       text-align: center; }
-  .body_wrap .right_position {
-    position: relative;
-    right: 0rem;
-    bottom: 0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-    .body_wrap .right_position .icon_touch {
-      position: absolute;
-      right: 45%;
-      bottom: 6.2rem; }
-      .body_wrap .right_position .icon_touch .icon_img {
-        width: 40px;
-        height: 40px; }
-    .body_wrap .right_position #list_slide {
-      display: none; }
-      .body_wrap .right_position #list_slide .icon_list {
-        position: absolute;
-        right: 45%;
-        bottom: 3.2rem;
-        width: 40px;
-        height: 40px;
-        background: #9c2531;
-        color: #D3D3D3;
-        border-radius: 50rem;
-        overflow: hidden; }
-        .body_wrap .right_position #list_slide .icon_list.one {
-          bottom: 17.1rem; }
-        .body_wrap .right_position #list_slide .icon_list.two {
-          bottom: 13.3rem; }
-        .body_wrap .right_position #list_slide .icon_list.three {
-          bottom: 9.5rem; }
-        .body_wrap .right_position #list_slide .icon_list .list_font_icon,
-        .body_wrap .right_position #list_slide .icon_list .list_label {
-          float: left;
-          padding-left: 0.75rem; }
-        .body_wrap .right_position #list_slide .icon_list .list_font_icon {
-          font-size: 20px; }
-        .body_wrap .right_position #list_slide .icon_list .list_label {
-          font-size: 16px;
-          visibility: hidden; }
-        .body_wrap .right_position #list_slide .icon_list:hover {
-          width: 120px;
-          -webkit-transition: width, 1s;
-          -o-transition: width, 1s;
-          transition: width, 1s; }
-          .body_wrap .right_position #list_slide .icon_list:hover .list_label {
-            visibility: visible; } }
+  .body_wrap .right_position .icon_touch {
+    right: 45%;
+    bottom: 6.2rem; }
+    .body_wrap .right_position .icon_touch .icon_img {
+      width: 40px;
+      height: 40px; }
+  .body_wrap .right_position #list_slide .icon_list {
+    right: 45%;
+    width: 40px;
+    height: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
