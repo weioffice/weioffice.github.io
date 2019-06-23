@@ -50,7 +50,7 @@
       overflow: hidden; }
       .body_wrap .body_content .main_content .content_img_div .content_image {
         width: 100%;
-        height: 352px;
+        height: 25.14rem;
         float: left;
         background-size: cover;
         background-repeat: no-repeat;
@@ -97,6 +97,93 @@
         background: #9c2531;
         color: #D3D3D3;
         border-radius: 50rem;
+        overflow: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .body_wrap .right_position #list_slide .icon_list.one {
+          bottom: 17.1rem; }
+        .body_wrap .right_position #list_slide .icon_list.two {
+          bottom: 13.3rem; }
+        .body_wrap .right_position #list_slide .icon_list.three {
+          bottom: 9.5rem; }
+        .body_wrap .right_position #list_slide .icon_list .list_font_icon,
+        .body_wrap .right_position #list_slide .icon_list .list_label {
+          float: left;
+          padding-left: 0.75rem; }
+        .body_wrap .right_position #list_slide .icon_list .list_font_icon {
+          font-size: 20px; }
+        .body_wrap .right_position #list_slide .icon_list .list_label {
+          font-size: 16px;
+          visibility: hidden; }
+        .body_wrap .right_position #list_slide .icon_list:hover {
+          width: 120px;
+          -webkit-transition: width, 1s;
+          -o-transition: width, 1s;
+          transition: width, 1s; }
+          .body_wrap .right_position #list_slide .icon_list:hover .list_label {
+            visibility: visible; }
+
+@media (max-width: 768px) {
+  .body_wrap .body_content .main_content .content_img_div .content_image {
+    height: 19.5rem; } }
+
+@media (max-width: 414px) {
+  .body_wrap .body_content {
+    margin-top: 2.71rem; }
+    .body_wrap .body_content .header .header_left {
+      width: 50%; }
+      .body_wrap .body_content .header .header_left .logo_img_mg .logo_img {
+        width: 80px;
+        height: 65px; }
+    .body_wrap .body_content .header .header_right {
+      width: 50%;
+      padding-top: 0; }
+      .body_wrap .body_content .header .header_right .menu_list .menu_list_li {
+        font-size: 22px;
+        line-height: 3rem; }
+      .body_wrap .body_content .header .header_right .menu_list_custom_img {
+        padding-top: 3rem; }
+  .body_wrap .footer {
+    padding-left: 0; }
+    .body_wrap .footer .mark {
+      width: 100%;
+      text-align: center; }
+  .body_wrap .right_position {
+    position: relative;
+    right: 0rem;
+    bottom: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .body_wrap .right_position .icon_touch {
+      position: absolute;
+      right: 45%;
+      bottom: 6.2rem; }
+      .body_wrap .right_position .icon_touch .icon_img {
+        width: 40px;
+        height: 40px; }
+    .body_wrap .right_position #list_slide {
+      display: none; }
+      .body_wrap .right_position #list_slide .icon_list {
+        position: absolute;
+        right: 45%;
+        bottom: 3.2rem;
+        width: 40px;
+        height: 40px;
+        background: #9c2531;
+        color: #D3D3D3;
+        border-radius: 50rem;
         overflow: hidden; }
         .body_wrap .right_position #list_slide .icon_list.one {
           bottom: 17.1rem; }
@@ -107,12 +194,11 @@
         .body_wrap .right_position #list_slide .icon_list .list_font_icon,
         .body_wrap .right_position #list_slide .icon_list .list_label {
           float: left;
-          padding: 0.8rem; }
+          padding-left: 0.75rem; }
         .body_wrap .right_position #list_slide .icon_list .list_font_icon {
           font-size: 20px; }
         .body_wrap .right_position #list_slide .icon_list .list_label {
           font-size: 16px;
-          padding-left: 0;
           visibility: hidden; }
         .body_wrap .right_position #list_slide .icon_list:hover {
           width: 120px;
@@ -120,4 +206,6 @@
           -o-transition: width, 1s;
           transition: width, 1s; }
           .body_wrap .right_position #list_slide .icon_list:hover .list_label {
-            visibility: visible; }
+            visibility: visible; } }
+
+/*# sourceMappingURL=style.css.map */

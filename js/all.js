@@ -3,10 +3,10 @@ function animateCSS(element, animationName, callback) {
   node.classList.add('animated', animationName)
 
   function handleAnimationEnd() {
-      node.classList.remove('animated', animationName)
-      node.removeEventListener('animationend', handleAnimationEnd)
+    node.classList.remove('animated', animationName)
+    node.removeEventListener('animationend', handleAnimationEnd)
 
-      if (typeof callback === 'function') callback()
+    if (typeof callback === 'function') callback()
   }
 
   node.addEventListener('animationend', handleAnimationEnd)
@@ -15,12 +15,11 @@ function animateCSS(element, animationName, callback) {
 $(document).ready(function () {
 
   // content 圖片輪播
-  $('.content_img_div').slick({
+  $('#jq-c_img_div').slick({
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 480,
         settings: {
           arrows: false,
@@ -42,17 +41,15 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 2000
 
-});
-
-$("#jq-icon_touch").click(function (e) { 
-  // e.preventDefault();
-  animateCSS("#jq-icon_touch",'bounce', function(e){
-    $("#list_slide").toggle("fast");
   });
-  
-});
-  
+
+  $("#jq-icon_touch").click(function (e) {
+    // e.preventDefault();
+    animateCSS("#jq-icon_touch", 'bounce', function (e) {
+      $("#list_slide").toggle("fast");
+    });
 
   });
 
-  
+
+});
