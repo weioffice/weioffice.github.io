@@ -1,5 +1,3 @@
-@import url(../css/_cssReset.css);
-@import url(../css/_animate.css);
 .body_wrap {
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c7c7c7));
   background: -webkit-linear-gradient(#ffffff, #c7c7c7);
