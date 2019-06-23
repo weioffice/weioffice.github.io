@@ -4,6 +4,7 @@
 // 1920*1080
 .body_wrap {
     background: linear-gradient(#ffffff, #c7c7c7);
+    overflow: hidden;
 
 
 
@@ -166,7 +167,7 @@
                 background: #9c2531;
                 color: #D3D3D3;
                 border-radius: 50rem;
-                display: block;
+                overflow: hidden;
     
     
     
@@ -198,7 +199,7 @@
                 .list_label {
                     font-size: 16px;
                     padding-left: 0;
-                    opacity: 0;
+                    visibility: hidden;
                 }
     
     
@@ -207,7 +208,7 @@
                     transition: width, 1s;
     
                     .list_label {
-                        opacity: 1;
+                        visibility: visible;
                     }
     
                 }

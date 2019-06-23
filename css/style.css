@@ -4,7 +4,8 @@
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c7c7c7));
   background: -webkit-linear-gradient(#ffffff, #c7c7c7);
   background: -o-linear-gradient(#ffffff, #c7c7c7);
-  background: linear-gradient(#ffffff, #c7c7c7); }
+  background: linear-gradient(#ffffff, #c7c7c7);
+  overflow: hidden; }
   .body_wrap .body_content {
     margin-top: 5.65rem;
     margin-bottom: 16.2rem; }
@@ -96,7 +97,7 @@
         background: #9c2531;
         color: #D3D3D3;
         border-radius: 50rem;
-        display: block; }
+        overflow: hidden; }
         .body_wrap .right_position #list_slide .icon_list.one {
           bottom: 17.1rem; }
         .body_wrap .right_position #list_slide .icon_list.two {
@@ -112,11 +113,11 @@
         .body_wrap .right_position #list_slide .icon_list .list_label {
           font-size: 16px;
           padding-left: 0;
-          opacity: 0; }
+          visibility: hidden; }
         .body_wrap .right_position #list_slide .icon_list:hover {
           width: 120px;
           -webkit-transition: width, 1s;
           -o-transition: width, 1s;
           transition: width, 1s; }
           .body_wrap .right_position #list_slide .icon_list:hover .list_label {
-            opacity: 1; }
+            visibility: visible; }
