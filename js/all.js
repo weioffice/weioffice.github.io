@@ -1,17 +1,16 @@
-// 解決 animate.css 動畫 不重複的問題
 function animateCSS(element, animationName, callback) {
   const node = document.querySelector(element)
   node.classList.add('animated', animationName)
 
   function handleAnimationEnd() {
-    node.classList.remove('animated', animationName)
-    node.removeEventListener('animationend', handleAnimationEnd)
+      node.classList.remove('animated', animationName)
+      node.removeEventListener('animationend', handleAnimationEnd)
 
-    if (typeof callback === 'function') callback()
+      if (typeof callback === 'function') callback()
   }
 
   node.addEventListener('animationend', handleAnimationEnd)
-}
+};
 
 $(document).ready(function () {
 
@@ -43,23 +42,17 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 2000
 
-  });
-  
-
-  //點擊 icon圖
-  $("#js-icon_img_div").click(function (event) {
-    // icon圖 出現 bounce 動畫
-    animateCSS("#js-icon_img_div", 'bounce', function () {
-      // icon選單 slide
-      $("#js-slide").slideToggle("fast");
-    })
-
-  });
-
-  //  $("#js-hover").hover(function(event){
-
-  //  });
-
-  
-
 });
+
+$("#jq-icon_touch").click(function (e) { 
+  // e.preventDefault();
+  animateCSS("#jq-icon_touch",'bounce', function(e){
+    $("#list_slide").toggle("fast");
+  });
+  
+});
+  
+
+  });
+
+  
