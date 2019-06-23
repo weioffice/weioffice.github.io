@@ -200,4 +200,18 @@
 .body_wrap .right_position #list_slide .icon_list.fixed {
   position: fixed; }
 
+@media (max-width: 768px) {
+  .body_wrap .body_content .content {
+    margin-left: 2rem;
+    margin-right: 2rem; }
+    .body_wrap .body_content .content .content_img_div {
+      width: 100%; }
+      .body_wrap .body_content .content .content_img_div .content_image {
+        height: 19.5rem; }
+    .body_wrap .body_content .content .content_text_view {
+      width: 100%;
+      padding-top: 3rem;
+      padding-left: 0;
+      padding-right: 15rem; } }
+
 /*# sourceMappingURL=style.css.map */
