@@ -15,31 +15,36 @@ function animateCSS(element, animationName, callback) {
 $(document).ready(function () {
 
   // content 圖片輪播
+  //breakpoint 相當於 min-width
   $('#jq-c_img_div').slick({
+    // device < 480
+    mobileFirst:true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
+    centerPadding: '0px',
+    slidesToShow: 1,
     responsive: [{
+      // device > 960
+        breakpoint: 960,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '60px',
+          slidesToShow: 3,
+        }
+      },
+      {
+        //480 < device < 960 
         breakpoint: 480,
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 240,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
+          centerPadding: '0px',
+          slidesToShow: 2
         }
       }
-    ],
-    autoplay: true,
-    autoplaySpeed: 2000
+    ]
 
   });
 
