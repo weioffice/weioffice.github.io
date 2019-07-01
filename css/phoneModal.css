@@ -1,0 +1,41 @@
+/*
+*1920px
+*/
+.modal .modal-dialog .modal-content.customer {
+  background-color: #9c2531;
+  color: #fff;
+  opacity: 0.9;
+  border-radius: 1.8rem;
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+.modal .modal-dialog .modal-content .modal-header.customer {
+  border-bottom: 0;
+  padding-bottom: 0.1rem; }
+
+.modal .modal-dialog .modal-content .modal-header .modal-title.customer {
+  padding-bottom: 0.1rem; }
+
+.modal .modal-dialog .modal-content .modal-header .modal-title .title_cn {
+  font-size: 16px;
+  margin-bottom: 0; }
+
+.modal .modal-dialog .modal-body .phone {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #9c2531;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem; }
+
+/*
+*768px
+*/
+/*
+*414px
+*/

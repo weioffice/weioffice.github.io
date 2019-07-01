@@ -1,0 +1,262 @@
+/*
+ *1920px
+ */
+.right_position {
+    position: relative; //relative;
+    right: 0rem;
+    bottom: 0rem;
+
+    .icon_touch {
+        position: absolute; //absolute;
+        right: 5.26rem;
+        bottom: 3.2rem;
+
+        &.postion_fixed{
+            position: fixed;
+        }
+
+        .icon_img {
+            width: 80px; //80px;
+            height: 80px; //80px;
+        }
+    }
+
+    #list_slide {
+        display: none;
+
+        .icon_list {
+            position: absolute; //absolute;
+            right: 6.8rem;
+            bottom: 3.2rem;
+            width: 40px; // 40px;
+            height: 40px; // 40px;
+            background-color: #9c2531; //#9c2531;
+            color: #D3D3D3; //#D3D3D3;
+            border-radius: 50rem;
+            overflow: hidden;
+            outline: none;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            padding-left: 0.65rem;
+
+            &.postion_fixed{
+                position: fixed;
+            }
+
+
+            &.one {
+                bottom: 3.8rem * 4.5;
+
+            }
+
+            &.two {
+                bottom: 3.8rem * 3.5;
+
+            }
+
+            &.three {
+                bottom: 3.8rem * 2.5;
+            }
+
+            .list_font_icon,
+            .list_label {
+                float: left;
+
+
+            }
+
+            .list_font_icon {
+                font-size: 20px;
+            }
+
+            .list_label {
+                font-size: 16px;
+                padding-left: 1rem;
+                visibility: hidden;
+
+
+                a {
+
+                    &:hover {
+                        color: #D3D3D3; //#D3D3D3;
+
+                    }
+                }
+            }
+
+
+            &:hover {
+                width: 120px;
+                transition: width, 1s;
+
+                .list_label {
+                    visibility: visible;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+/*
+*768px
+*/
+#list_slide {
+    display: none;
+
+    .icon_list {
+        position: absolute; //absolute;
+        right: 6.8rem;
+        bottom: 3.2rem;
+        width: 40px; // 40px;
+        height: 40px; // 40px;
+        background-color: #9c2531; //#9c2531;
+        color: #D3D3D3; //#D3D3D3;
+        border-radius: 50rem;
+        overflow: hidden;
+        outline: none;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        padding-left: 0.65rem;
+
+        &.postion_fixed{
+            position: fixed;
+        }
+
+
+        &.one {
+            bottom: 3.8rem * 4.5;
+
+        }
+
+        &.two {
+            bottom: 3.8rem * 3.5;
+
+        }
+
+        &.three {
+            bottom: 3.8rem * 2.5;
+        }
+
+        .list_font_icon,
+        .list_label {
+            float: left;
+
+
+        }
+
+        .list_font_icon {
+            font-size: 20px;
+        }
+
+        .list_label {
+            font-size: 16px;
+            padding-left: 1rem;
+            visibility: hidden;
+
+
+            a {
+
+                &:mouseenter {
+                    color: #D3D3D3; //#D3D3D3;
+
+                }
+            }
+        }
+
+
+        &:mouseenter {
+            width: 120px;
+            transition: width, 1s;
+
+            .list_label {
+                visibility: visible;
+
+            }
+
+        }
+
+    }
+
+}
+
+/*
+*414px
+*/
+
+@media (max-width : 414px){
+    .right_position {
+    
+        .icon_touch {
+            right: 45%;
+            bottom: (2.5rem + 3.2rem);
+
+            &.postion_fixed{
+                position: absolute;
+            }
+    
+            .icon_img {
+                width: 40px; //80px;
+                height: 40px; //80px;
+            }
+        }
+    
+        #list_slide {
+    
+            .icon_list {
+                right: 45%;
+                width: 40px; // 40px;
+                height: 40px; // 40px;
+
+                &.postion_fixed{
+                    position: absolute;
+                }
+
+                .list_label {
+                    font-size: 16px;
+                    padding-left: 1rem;
+                    visibility: hidden;
+    
+    
+                    a {
+    
+                        &:mouseenter {
+                            color: #D3D3D3; //#D3D3D3;
+    
+                        }
+                    }
+                }
+    
+    
+                &:mouseenter {
+                    width: 120px;
+                    transition: width, 1s;
+    
+                    .list_label {
+                        visibility: visible;
+    
+                    }
+    
+                }
+
+
+
+                }
+    
+    
+            }
+    
+        }
+
+}
+

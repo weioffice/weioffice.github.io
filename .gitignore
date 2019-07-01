@@ -1,0 +1,8 @@
+#   忽略 .DS_Store
+  *.DS_Store
+  */.DS_Store
+
+# 忽略 prepros-6.config
+  prepros-6.config
+
+

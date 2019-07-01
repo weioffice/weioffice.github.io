@@ -1,0 +1,152 @@
+/*
+ *1920px
+ */
+.right_position {
+  position: relative;
+  right: 0rem;
+  bottom: 0rem; }
+  .right_position .icon_touch {
+    position: absolute;
+    right: 5.26rem;
+    bottom: 3.2rem; }
+    .right_position .icon_touch.postion_fixed {
+      position: fixed; }
+    .right_position .icon_touch .icon_img {
+      width: 80px;
+      height: 80px; }
+  .right_position #list_slide {
+    display: none; }
+    .right_position #list_slide .icon_list {
+      position: absolute;
+      right: 6.8rem;
+      bottom: 3.2rem;
+      width: 40px;
+      height: 40px;
+      background-color: #9c2531;
+      color: #D3D3D3;
+      border-radius: 50rem;
+      overflow: hidden;
+      outline: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding-left: 0.65rem; }
+      .right_position #list_slide .icon_list.postion_fixed {
+        position: fixed; }
+      .right_position #list_slide .icon_list.one {
+        bottom: 17.1rem; }
+      .right_position #list_slide .icon_list.two {
+        bottom: 13.3rem; }
+      .right_position #list_slide .icon_list.three {
+        bottom: 9.5rem; }
+      .right_position #list_slide .icon_list .list_font_icon,
+      .right_position #list_slide .icon_list .list_label {
+        float: left; }
+      .right_position #list_slide .icon_list .list_font_icon {
+        font-size: 20px; }
+      .right_position #list_slide .icon_list .list_label {
+        font-size: 16px;
+        padding-left: 1rem;
+        visibility: hidden; }
+        .right_position #list_slide .icon_list .list_label a:hover {
+          color: #D3D3D3; }
+      .right_position #list_slide .icon_list:hover {
+        width: 120px;
+        -webkit-transition: width, 1s;
+        -o-transition: width, 1s;
+        transition: width, 1s; }
+        .right_position #list_slide .icon_list:hover .list_label {
+          visibility: visible; }
+
+/*
+*768px
+*/
+#list_slide {
+  display: none; }
+  #list_slide .icon_list {
+    position: absolute;
+    right: 6.8rem;
+    bottom: 3.2rem;
+    width: 40px;
+    height: 40px;
+    background-color: #9c2531;
+    color: #D3D3D3;
+    border-radius: 50rem;
+    overflow: hidden;
+    outline: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0.65rem; }
+    #list_slide .icon_list.postion_fixed {
+      position: fixed; }
+    #list_slide .icon_list.one {
+      bottom: 17.1rem; }
+    #list_slide .icon_list.two {
+      bottom: 13.3rem; }
+    #list_slide .icon_list.three {
+      bottom: 9.5rem; }
+    #list_slide .icon_list .list_font_icon,
+    #list_slide .icon_list .list_label {
+      float: left; }
+    #list_slide .icon_list .list_font_icon {
+      font-size: 20px; }
+    #list_slide .icon_list .list_label {
+      font-size: 16px;
+      padding-left: 1rem;
+      visibility: hidden; }
+      #list_slide .icon_list .list_label a:mouseenter {
+        color: #D3D3D3; }
+    #list_slide .icon_list:mouseenter {
+      width: 120px;
+      -webkit-transition: width, 1s;
+      -o-transition: width, 1s;
+      transition: width, 1s; }
+      #list_slide .icon_list:mouseenter .list_label {
+        visibility: visible; }
+
+/*
+*414px
+*/
+@media (max-width: 414px) {
+  .right_position .icon_touch {
+    right: 45%;
+    bottom: 5.7rem; }
+    .right_position .icon_touch.postion_fixed {
+      position: absolute; }
+    .right_position .icon_touch .icon_img {
+      width: 40px;
+      height: 40px; }
+  .right_position #list_slide .icon_list {
+    right: 45%;
+    width: 40px;
+    height: 40px; }
+    .right_position #list_slide .icon_list.postion_fixed {
+      position: absolute; }
+    .right_position #list_slide .icon_list .list_label {
+      font-size: 16px;
+      padding-left: 1rem;
+      visibility: hidden; }
+      .right_position #list_slide .icon_list .list_label a:mouseenter {
+        color: #D3D3D3; }
+    .right_position #list_slide .icon_list:mouseenter {
+      width: 120px;
+      -webkit-transition: width, 1s;
+      -o-transition: width, 1s;
+      transition: width, 1s; }
+      .right_position #list_slide .icon_list:mouseenter .list_label {
+        visibility: visible; } }

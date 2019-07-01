@@ -1,0 +1,88 @@
+/*
+*1920px
+*/
+.modal {
+    .modal-dialog {
+        .modal-content {
+            &.customer {
+                background-color: #9c2531;
+                color: #fff;
+                opacity: 0.9;
+                border-radius: 1.8rem;
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            .modal-header {
+                &.customer {
+                    border-bottom: 0;
+                    padding-bottom: 0.1rem;
+                }
+
+                .modal-title {
+                    &.customer {
+                        padding-bottom: 0.1rem;
+                    }
+
+                    .title_cn {
+                        font-size: 16px;
+                    }
+                }
+
+                >h5 {
+                    align-self: flex-end;
+                }
+            }
+
+            .modal-body  {
+                &.customer{
+                    padding-bottom: 0;
+
+                }
+
+                >form {
+                    .customer {
+                        >textarea{
+                            min-height: 234px;
+                        }
+                        
+                    }
+                }
+            }
+
+            .modal-footer  {
+                &.customer{
+                    border-top: 0;
+                margin-top: 0;
+                padding-top: 0;
+                justify-content: space-between;
+                align-items: center;
+
+                }
+                
+
+                .info_label {
+                    .map_label {
+                        >i {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+                >button {
+                    width: 8rem;
+                    border-radius: 1rem;
+                }
+            }
+
+        }
+    }
+}
+
+/*
+*768px
+*/
+
+/*
+*414px
+*/

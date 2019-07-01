@@ -1,0 +1,36 @@
+/*
+* 1920px
+*/
+.main_content {
+  width: 100%;
+  margin-top: 9.57rem;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden; }
+  .main_content .content_img_div > div .content_image {
+    width: 100%;
+    height: 25.14rem;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none; }
+    .main_content .content_img_div > div .content_image.img_1 {
+      background-image: url(../images/contentImage2.jpg); }
+    .main_content .content_img_div > div .content_image.img_2 {
+      background-image: url(../images/contentImage3.jpg); }
+    .main_content .content_img_div > div .content_image.img_3 {
+      background-image: url(../images/contentImage4.jpg); }
+    .main_content .content_img_div > div .content_image.img_4 {
+      background-image: url(../images/contentImage2.jpg); }
+
+/*
+*768px
+*/
+@media (max-width: 768px) {
+  .main_content .content_img_div > div .content_image {
+    height: 19.5rem; } }
+
+/*
+*414px
+*/

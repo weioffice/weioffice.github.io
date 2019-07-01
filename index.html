@@ -12,9 +12,8 @@
     <link rel="stylesheet" type="text/css" href="./css/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css" />
     <!-- slick.css end -->
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-
-    <title>璽藝廊_v2.0.io</title>
+    <link rel="stylesheet" type="text/css" href="./css/index-style.css">
+    <title>璽藝廊_v2.1.index</title>
 </head>
 
 <body>
@@ -25,8 +24,8 @@
             <!-- header -->
             <div class="header clearfix">
                 <div class="header_left">
-                    <div class="logo_img_mg">
-                        <a href="index.html"><img src="images/logo.png" alt="logo" class="logo_img"></a>
+                    <div class="logo_img">
+                        <a href="index.html" class="logo_img_style logo"></a>
                     </div>
 
                 </div>
@@ -34,13 +33,20 @@
                     <!-- 主選單 -->
                     <nav class="menu_list">
                         <ul>
-                            <li class="menu_list_li"><a href="#_Gallery">Gallery</a></li>
-                            <li class="menu_list_li"><a href="./aboutPage.html">About</a></li>
-                            <li class="menu_list_li"><a href="#_Contact ">Contact</a></li>
+                            <li class="menu_list_li">
+                                <a href="./gallery.html">Gallery</a>
+                            </li>
+                            <li class="menu_list_li">
+                                <a href="./aboutPage.html">About</a>
+                            </li>
+                            <li class="menu_list_li">
+                                <a href="#_contact" data-toggle="modal" data-target="#contactModal">Contact</a>
+                            </li>
+
                             <!-- 圖標選單 -->
                             <div class="menu_list_custom_img">
                                 <a href="#facebook"><i class="fab fa-facebook-square img-style"></i></a>
-                                <a href="#shoping-cart"><i class="fas fa-shopping-cart img-style"></i></a>
+                                <a href="#shoping-cart"><i class="fas fa-shopping-cart img-style mg-left"></i></a>
                             </div>
                             <!-- 圖標選單 end-->
                         </ul>
@@ -84,8 +90,8 @@
 
         <!-- footer -->
         <div class="footer clearfix">
-            <div class="mark">
-                <div class="mark_label">
+            <div class="trademark">
+                <div class="trademark_label">
                     <p>©2019 XI Gallery. all rights reserved.</p>
                 </div>
             </div>
@@ -101,43 +107,111 @@
 
             <nav id="list_slide">
 
-                <div class="icon_list one">
+                <button type="button" class="icon_list one" data-toggle="modal" data-target="#contactModal">
+
                     <div class="list_font_icon">
                         <i class="far fa-envelope"></i>
                     </div>
                     <div class="list_label">
-                        <a href="#">Mail</a>
+                        <i>Mail</i>
                     </div>
-                </div>
+                </button>
 
-                <div class="icon_list two">
+                <button type="button" class="icon_list two" data-toggle="modal" data-target="#phoneModal">
                     <div class="list_font_icon">
-                        <i class="fas fa-phone-alt "></i>
+                        <i class="fas fa-phone-alt"></i>
                     </div>
                     <div class="list_label">
-                        <a href="#">Phone</a>
+                        <i>Phone</i>
                     </div>
-                </div>
+                </button>
 
-                <div class="icon_list three">
+                <button class="icon_list three">
                     <div class="list_font_icon">
                         <i class="fab fa-facebook-messenger"></i>
                     </div>
                     <div class="list_label">
-                        <a href="#">Facebook</a>
+                        <i>Facebook</i>
                     </div>
-                </div>
+                </button>
 
 
             </nav>
 
         </div>
-
-
-
-
+        <!-- icon_touch end-->
 
     </div>
+
+    <!-- contactModal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content customer">
+
+                <div class="modal-header customer">
+                    <h3 class="modal-title customer" id="contactModalLabel">Contact Us
+                        <br>
+                        <p class="title_cn">聯絡我們</p>
+                    </h3>
+                    <h5 class="modal-title">璽藝廊 Xi Gallery</h5>
+
+                </div>
+                <div class="modal-body customer">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="recipient-name" placeholder="輸入您的電子信箱">
+                        </div>
+                        <div class="form-group customer">
+                            <textarea class="form-control" id="message-text"
+                                placeholder="請輸入您的訊息，若是詢問作品，請留下作品名稱，也歡迎您留下電子信箱以外的聯絡方式。"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer customer">
+                    <div class="info_label">
+                        <div class="map_label">
+                            <i class="fas fa-map-marker-alt"> 100 台北市中正區紹興北街3號6樓</i>
+                        </div>
+                        <div class="phone_label">
+                            <i class="fas fa-phone-alt"> +886-1234-5678</i>
+                        </div>
+
+                    </div>
+
+                    <button type="button" class="btn btn-primary text-black-50 bg-white"
+                        style="width: 8rem; border-radius: 1rem;">發送</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contactmodal end-->
+
+    <!-- phoneModal -->
+    <div class="modal fade" id="phoneModal" tabindex="-1" role="dialog" aria-labelledby="phoneModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content customer">
+                <div class="modal-header customer">
+                    <h3 class="modal-title customer" id="phoneModalLabel">Contact Us
+                        <br>
+                        <p class="title_cn">聯絡璽藝廊</p>
+                    </h3>
+
+                </div>
+                <div class="modal-body">
+                    <div class="phone text-white">
+                        <i>02-1234-5678</i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- phoneModal end-->
+
     <!-- fonticon.js -->
     <script type="text/javascript" src="//kit.fontawesome.com/3f2a064e79.js"></script>
     <!-- fonticon.js end-->
@@ -146,6 +220,10 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="./css/slick/slick.min.js"></script>
     <!-- slick.js end-->
+    <!-- bootstrap -->
+    <script type="text/javascript" src="./bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+    <!-- bootstrap end -->
 
     <script type="text/javascript" src="./js/all.js"></script>
 

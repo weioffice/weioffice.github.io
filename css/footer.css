@@ -1,0 +1,24 @@
+/*
+ *1920px
+ */
+.footer {
+  padding-left: 3.79rem;
+  padding-bottom: 3.14rem; }
+  .footer .trademark .trademark_label {
+    font-size: 14px;
+    font-weight: 300px;
+    letter-spacing: 1px;
+    color: #4a4a4a; }
+
+/* 
+ *768px
+ */
+/*
+ *414px
+ */
+@media (max-width: 414px) {
+  .footer {
+    padding-left: 0; }
+    .footer .trademark {
+      width: 100%;
+      text-align: center; } }

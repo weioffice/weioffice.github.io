@@ -1,0 +1,16 @@
+/*
+ *1920px
+ */
+.body_content {
+  margin-top: 5.65rem;
+  margin-bottom: 16.2rem; }
+
+/*
+ *768px
+ */
+/*
+ *414px
+ */
+@media (max-width: 414px) {
+  .body_content {
+    margin-top: 2.71rem; } }
