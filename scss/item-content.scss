@@ -1,0 +1,20 @@
+$border: 1px solid;
+/*
+1920
+*/
+
+.body_content {
+  border: $border;
+}
+
+.container {
+  border: $border;
+  height: 250px;
+  .button1 {
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+}

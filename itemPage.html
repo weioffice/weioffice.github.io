@@ -9,131 +9,95 @@
     <link rel="stylesheet" type="text/css" href="./css/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css" />
     <!-- slick.css end -->
-    <link rel="stylesheet" type="text/css" href="./css/shoppingInfo-style.css">
+    <link rel="stylesheet" type="text/css" href="./css/itemPage-style.css">
     <!-- boostrap4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Fontawesome-->
     <script src="https://kit.fontawesome.com/3b8c5e3e15.js"></script>
-    <title>璽藝廊_v2.1.shoppingInfo</title>
+    <title>璽藝廊_v2.1.Item Page</title>
 </head>
 
 <body>
-    <div class="body_wrap">
-        <!-- body_content -->
+    <div class="body-wrap">
+        <!-- body_content-->
         <div class="body_content clearfix">
             <!-- header -->
-            <div class="d-flex align-items-stretch float-left">
-                <div class="header">
-                    <div class="header_left">
-                        <div class="logo_img">
-                            <a href="index.html" class="logo_img_style logo"></a>
-                        </div>
+            <div class="header clearfix">
+                <div class="header_left">
+                    <div class="logo_img">
+                        <a href="index.html" class="logo_img_style logo"></a>
                     </div>
+                </div>
+                <div class="header_right">
+                    <!-- 主選單 -->
+                    <nav class="menu_list">
+                        <ul>
+                            <li class="menu_list_li">
+                                <a href="./gallery.html">Gallery</a>
+                            </li>
+                            <li class="menu_list_li">
+                                <a href="./aboutPage.html">About</a>
+                            </li>
+                            <li class="menu_list_li">
+                                <a href="#_contact" data-toggle="modal" data-target="#contactModal">Contact</a>
+                            </li>
+
+                            <!-- 圖標選單 -->
+                            <div class="menu_list_custom_img">
+                                <a href="#facebook"><i class="fab fa-facebook-square img-style"></i></a>
+                                <a href="#shoping-cart"><i class="fas fa-shopping-cart img-style mg-left"></i></a>
+                            </div>
+                            <!-- 圖標選單 end-->
+                        </ul>
+                    </nav>
+                    <!-- 主選單 end-->
                 </div>
             </div>
             <!-- header end-->
-
-            <!-- 表單 -->
-            <div class="person-info">
-                <div class="float-left d-flex p-2 bd-highlight">
-                    <div class="container">
-                        <div class="title mt-5">
-                            <h1>Shipping Info 收件人資訊</h1>
-                        </div>
-                        <form class="person-info-form">
-                            <div class="form-row">
-                                <div class="col">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control form-control-lg border border-danger"
-                                        placeholder="First Name 名字" id="">
-                                </div>
-                                <div class="col">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control form-control-lg border border-danger"
-                                        placeholder="Last Name 姓氏" id="">
-                                </div>
-                            </div>
-                            <div class="form-group mb-1">
-                                <label for=""></label>
-                                <input type="text" class="form-control form-control-lg border border-danger"
-                                    placeholder="Street Address 地址" id="">
-                            </div>
-                            <div class="form-row">
-                                <div class="col">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control form-control-lg border border-danger"
-                                        placeholder="City 縣市" id="">
-                                </div>
-                                <div class="col">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control form-control-lg border border-danger"
-                                        placeholder="Region 地區" id="">
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="col">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control form-control-lg border border-danger"
-                                        placeholder="Zip code 郵遞區號" id="">
-                                </div>
-                                <div class="col">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control form-control-lg border border-danger"
-                                        placeholder="Country 國家" id="">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for=""></label>
-                                <input type="text" class="form-control form-control-lg border border-danger"
-                                    placeholder="Phone Number 聯絡電話" id="">
-                            </div>
-                        </form>
-                    </div>
-                </div>
+        </div>
+        <!-- item modal-->
+        <div class="container position-relative">
+            <!-- button -->
+            <div class="button1 position-absolute">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#item1">
+                    Gallery Item
+                </button>
             </div>
-            <div class="item-info">
-                <div class="d-flex p-2 bd-highlight">
-                    <div class="container">
-                        <div class="border rounded px-3 py-3">
-                            <form>
-                                <div class="form-group row">
-                                    <label for="items" class="col col-form-label">Items 數量</label>
-                                    <div class="col-lg-4">
-                                        <input type="text" readonly class="form-control-plaintext" id="" value="共九件">
+            <!-- Modal -->
+            <div class="modal fade" id="item1" tabindex="-1" role="dialog" aria-labelledby="item1-title"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                    <div class="modal-content">
+                        <!-- card -->
+                        <div class="card mb-3" style="max-width: 1140px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="./images/contentImage1.jpg" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional
+                                            content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <label for="total" class="col col-form-label">Subtotal 小計</label>
-                                    <div class="col-lg-5">
-                                        <input type="text" readonly class="form-control-plaintext" id=""
-                                            value="NT$123,456">
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="items" class="col col-form-label">Total 總計</label>
-                                    <div class="col-lg-7">
-                                        <input type="text" readonly class="form-control-plaintext" id=""
-                                            value="NT$123,456" style="font-size: xx-large">
-                                    </div>
-                                </div>
-                            </form>
+                            </div>
                         </div>
-                        <br>
-                        <button type="button" class="btn btn-block btn-danger">Next：Billing info 付款資訊</button>
-                        <br>
-                        <button type="button" class="btn btn-block" style="font-size: large"><i class="fas fa-angle-left fa-lg"></i>  Back to
-                            Shopping Cart 回到購物車</button>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- 表單 end-->
 
         </div>
-        <!-- body_content end-->
-
-
+        <br>
         <!-- footer -->
         <div class="footer clearfix">
             <div class="trademark">
@@ -141,7 +105,6 @@
                     <p>©2019 XI Gallery. all rights reserved.</p>
                 </div>
             </div>
-
         </div>
         <!-- footer end-->
 
@@ -187,8 +150,6 @@
 
         </div>
         <!-- icon_touch end-->
-
-
         <!-- contactModal -->
         <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
             aria-hidden="true">
@@ -256,8 +217,8 @@
         </div>
 
         <!-- phoneModal end-->
-
     </div>
+
     <!-- fonticon.js -->
     <script type="text/javascript" src="//kit.fontawesome.com/3f2a064e79.js"></script>
     <!-- fonticon.js end-->
@@ -274,6 +235,7 @@
     <!-- bootstrap end -->
 
     <script type="text/javascript" src="./js/all.js"></script>
+
 
 </body>
 

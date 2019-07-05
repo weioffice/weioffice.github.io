@@ -1,0 +1,15 @@
+/*
+1920
+*/
+.body_content {
+  border: 1px solid; }
+
+.container {
+  border: 1px solid;
+  height: 250px; }
+  .container .button1 {
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }

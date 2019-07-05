@@ -56,7 +56,7 @@ $border: 1px solid;
 /*
 *414px
 */
-@media (max-width: 414px) {
+@media (max-width: 576px) {
   .header {
     margin-left: 2.85rem;
     margin-right: 1rem;
@@ -68,5 +68,11 @@ $border: 1px solid;
   .header .header_left .logo_img .logo_img_style {
     width: 80px;
     height: 65px;
+  }
+  .item-info {
+    padding-right: 0px;
+    .container {
+      margin-left: 0px;
+    }
   }
 }

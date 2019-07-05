@@ -122,7 +122,7 @@
 /*
 *414px
 */
-@media (max-width: 414px) {
+@media (max-width: 425px) {
   .right_position .icon_touch {
     right: 45%;
     bottom: 5.7rem; }

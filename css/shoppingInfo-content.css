@@ -46,7 +46,7 @@
 /*
 *414px
 */
-@media (max-width: 414px) {
+@media (max-width: 576px) {
   .header {
     margin-left: 2.85rem;
     margin-right: 1rem; }
@@ -55,4 +55,8 @@
     float: left; }
   .header .header_left .logo_img .logo_img_style {
     width: 80px;
-    height: 65px; } }
+    height: 65px; }
+  .item-info {
+    padding-right: 0px; }
+    .item-info .container {
+      margin-left: 0px; } }
