@@ -1,0 +1,58 @@
+/*
+1920
+*/
+.header {
+  margin-left: 4.57rem;
+  margin-right: 4.57rem; }
+
+.header .header_left {
+  float: left; }
+
+.header .header_left .logo_img .logo_img_style {
+  width: 165px;
+  height: 94px;
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.header .header_left .logo_img .logo_img_style.logo {
+  background-image: url(../images/logo.png); }
+
+.person-info .container .person-info-form ::-webkit-input-placeholder {
+  color: #cc0000;
+  opacity: 0.7; }
+
+.person-info .container .person-info-form :-ms-input-placeholder {
+  color: #cc0000;
+  opacity: 0.7; }
+
+.person-info .container .person-info-form ::-ms-input-placeholder {
+  color: #cc0000;
+  opacity: 0.7; }
+
+.person-info .container .person-info-form ::placeholder {
+  color: #cc0000;
+  opacity: 0.7; }
+
+.item-info {
+  padding-right: 30px; }
+  .item-info .container {
+    margin-left: 200px; }
+
+/*
+*768px
+*/
+/*
+*414px
+*/
+@media (max-width: 414px) {
+  .header {
+    margin-left: 2.85rem;
+    margin-right: 1rem; }
+  .header .header_left {
+    width: 50%;
+    float: left; }
+  .header .header_left .logo_img .logo_img_style {
+    width: 80px;
+    height: 65px; } }

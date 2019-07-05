@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <!-- <link rel="stylesheet" type="text/css" href="./css/_cssReset.css">
-    <link rel="stylesheet" type="text/css" href="./css/_animate.css"> -->
+        <link rel="stylesheet" type="text/css" href="./css/_animate.css"> -->
     <!-- slick.css -->
     <link rel="stylesheet" type="text/css" href="./css/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css" />
     <!-- slick.css end -->
-    <link rel="stylesheet" type="text/css" href="./css/about-style.css">
+    <link rel="stylesheet" type="text/css" href="./css/shoppingInfo-style.css">
+    <!-- boostrap4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Fontawesome-->
     <script src="https://kit.fontawesome.com/3b8c5e3e15.js"></script>
-
-    <title>璽藝廊_v2.1.about</title>
+    <title>璽藝廊_v2.1.shoppingInfo</title>
 </head>
 
 <body>
@@ -24,81 +25,112 @@
         <!-- body_content -->
         <div class="body_content clearfix">
             <!-- header -->
-            <div class="header clearfix">
-                <div class="header_left">
-                    <div class="logo_img">
-                        <a href="index.html" class="logo_img_style logo"></a>
+            <div class="d-flex align-items-stretch float-left">
+                <div class="header">
+                    <div class="header_left">
+                        <div class="logo_img">
+                            <a href="index.html" class="logo_img_style logo"></a>
+                        </div>
                     </div>
-
                 </div>
-                <div class="header_right">
-                    <!-- 主選單 -->
-                    <nav class="menu_list">
-                        <ul>
-                            <li class="menu_list_li">
-                                    <a href="./gallery.html">Gallery</a>
-                            </li>
-                            <li class="menu_list_li">
-                                <a href="./aboutPage.html">About</a>
-                            </li>
-                            <li class="menu_list_li">
-                                <a href="#_contact" data-toggle="modal" data-target="#contactModal">Contact</a>
-                            </li>
-
-                            <!-- 圖標選單 -->
-                            <div class="menu_list_custom_img">
-                                <a href="#facebook"><i class="fab fa-facebook-square img-style"></i></a>
-                                <a href="#shoping-cart"><i class="fas fa-shopping-cart img-style mg-left"></i></a>
-                            </div>
-                            <!-- 圖標選單 end-->
-                        </ul>
-                    </nav>
-                    <!-- 主選單 end-->
-
-                </div>
-
             </div>
             <!-- header end-->
-            <!-- about_content -->
-            <div class="about_content">
-                <div class="content_img_div">
-                    <a href="#" class="content_image img_1"></a>
-                </div>
 
-                <div class="content_text_view">
-                    <div class="about_text_header">
-                        <h1 class="header_style">Stanley Lin</h1>
-                    </div>
-                    <div class="about_text_label">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis, expedita minima
-                        perferendis perspiciatis itaque debitis excepturi praesentium error? Doloribus quasi ipsam ullam
-                        earum. Quos adipisci maiores nulla pariatur molestiae?
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates odit quidem non eum,
-                        architecto illum reiciendis perspiciatis! Ex quasi quaerat libero suscipit ipsam, ut
-                        necessitatibus illo quod, sed, autem nam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis, expedita minima
-                        perferendis perspiciatis itaque debitis excepturi praesentium error? Doloribus quasi ipsam ullam
-                        earum. Quos adipisci maiores nulla pariatur molestiae?
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates odit quidem non eum,
-                        architecto illum reiciendis perspiciatis! Ex quasi quaerat libero suscipit ipsam, ut
-                        necessitatibus illo quod, sed, autem nam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis, expedita minima
-                        perferendis perspiciatis itaque debitis excepturi praesentium error? Doloribus quasi ipsam ullam
-                        earum. Quos adipisci maiores nulla pariatur molestiae?
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates odit quidem non eum,
-                        architecto illum reiciendis perspiciatis! Ex quasi quaerat libero suscipit ipsam, ut
-                        necessitatibus illo quod, sed, autem nam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis, expedita minima
-                        perferendis perspiciatis itaque debitis excepturi praesentium error? Doloribus quasi ipsam ullam
-                        earum. Quos adipisci maiores nulla pariatur molestiae?
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates odit quidem non eum,
-                        architecto illum reiciendis perspiciatis! Ex quasi quaerat libero suscipit ipsam, ut
-                        necessitatibus illo quod, sed, autem nam.
+            <!-- 表單 -->
+            <div class="person-info">
+                <div class="float-left d-flex p-2 bd-highlight">
+                    <div class="container">
+                        <div class="title mt-5">
+                            <h1>Shipping Info 收件人資訊</h1>
+                        </div>
+                        <form class="person-info-form">
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for=""></label>
+                                    <input type="text" class="form-control form-control-lg border border-danger"
+                                        placeholder="First Name 名字" id="">
+                                </div>
+                                <div class="col">
+                                    <label for=""></label>
+                                    <input type="text" class="form-control form-control-lg border border-danger"
+                                        placeholder="Last Name 姓氏" id="">
+                                </div>
+                            </div>
+                            <div class="form-group mb-1">
+                                <label for=""></label>
+                                <input type="text" class="form-control form-control-lg border border-danger"
+                                    placeholder="Street Address 地址" id="">
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for=""></label>
+                                    <input type="text" class="form-control form-control-lg border border-danger"
+                                        placeholder="City 縣市" id="">
+                                </div>
+                                <div class="col">
+                                    <label for=""></label>
+                                    <input type="text" class="form-control form-control-lg border border-danger"
+                                        placeholder="Region 地區" id="">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for=""></label>
+                                    <input type="text" class="form-control form-control-lg border border-danger"
+                                        placeholder="Zip code 郵遞區號" id="">
+                                </div>
+                                <div class="col">
+                                    <label for=""></label>
+                                    <input type="text" class="form-control form-control-lg border border-danger"
+                                        placeholder="Country 國家" id="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for=""></label>
+                                <input type="text" class="form-control form-control-lg border border-danger"
+                                    placeholder="Phone Number 聯絡電話" id="">
+                            </div>
+                        </form>
                     </div>
                 </div>
-
             </div>
-            <!-- about_content end-->
+            <div class="item-info">
+                <div class="d-flex p-2 bd-highlight">
+                    <div class="container">
+                        <div class="border rounded px-3 py-3">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="items" class="col col-form-label">Items 數量</label>
+                                    <div class="col-lg-4">
+                                        <input type="text" readonly class="form-control-plaintext" id="" value="共九件">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="total" class="col col-form-label">Subtotal 小計</label>
+                                    <div class="col-lg-5">
+                                        <input type="text" readonly class="form-control-plaintext" id=""
+                                            value="NT$123,456">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="items" class="col col-form-label">Total 總計</label>
+                                    <div class="col-lg-7">
+                                        <input type="text" readonly class="form-control-plaintext" id=""
+                                            value="NT$123,456" style="font-size: xx-large">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <br>
+                        <button type="button" class="btn btn-block btn-danger">Next：Billing info 付款資訊</button>
+                        <br>
+                        <button type="button" class="btn btn-block" style="font-size: large"><i class="fas fa-angle-left fa-lg"></i>  Back to
+                            Shopping Cart 回到購物車</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 表單 end-->
 
         </div>
         <!-- body_content end-->
@@ -123,7 +155,8 @@
 
             <nav id="list_slide">
 
-                <button type="button" class="icon_list one postion_fixed" data-toggle="modal" data-target="#contactModal">
+                <button type="button" class="icon_list one postion_fixed" data-toggle="modal"
+                    data-target="#contactModal">
 
                     <div class="list_font_icon">
                         <i class="far fa-envelope"></i>
@@ -191,11 +224,10 @@
                             <div class="phone_label">
                                 <i class="fas fa-phone-alt"> +886-1234-5678</i>
                             </div>
-
                         </div>
-
                         <button type="button" class="btn btn-primary text-black-50 bg-white"
                             style="width: 8rem; border-radius: 1rem;">發送</button>
+                        <i class="fas fa-angle-left"></i>
                     </div>
                 </div>
             </div>
@@ -227,10 +259,6 @@
 
         <!-- phoneModal end-->
 
-
-
-
-
     </div>
     <!-- fonticon.js -->
     <script type="text/javascript" src="//kit.fontawesome.com/3f2a064e79.js"></script>
@@ -243,6 +271,8 @@
     <!-- bootstrap -->
     <script type="text/javascript" src="./bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+
+
     <!-- bootstrap end -->
 
     <script type="text/javascript" src="./js/all.js"></script>

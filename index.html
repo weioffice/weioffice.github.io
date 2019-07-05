@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css" />
     <!-- slick.css end -->
     <link rel="stylesheet" type="text/css" href="./css/index-style.css">
+    <!-- Fontawesome-->
+    <script src="https://kit.fontawesome.com/3b8c5e3e15.js"></script>
     <title>璽藝廊_v2.1.index</title>
 </head>
 
@@ -95,19 +97,19 @@
                     <p>©2019 XI Gallery. all rights reserved.</p>
                 </div>
             </div>
-
         </div>
         <!-- footer end-->
 
         <!-- icon_touch -->
         <div class="right_position">
-            <div class="icon_touch" id="jq-icon_touch">
+            <div class="icon_touch postion_fixed" id="jq-icon_touch">
                 <img src="images/xi-logo.png" alt="icon_image" class="icon_img">
             </div>
 
             <nav id="list_slide">
 
-                <button type="button" class="icon_list one" data-toggle="modal" data-target="#contactModal">
+                <button type="button" class="icon_list one postion_fixed" data-toggle="modal"
+                    data-target="#contactModal">
 
                     <div class="list_font_icon">
                         <i class="far fa-envelope"></i>
@@ -117,7 +119,7 @@
                     </div>
                 </button>
 
-                <button type="button" class="icon_list two" data-toggle="modal" data-target="#phoneModal">
+                <button type="button" class="icon_list two postion_fixed" data-toggle="modal" data-target="#phoneModal">
                     <div class="list_font_icon">
                         <i class="fas fa-phone-alt"></i>
                     </div>
@@ -126,7 +128,7 @@
                     </div>
                 </button>
 
-                <button class="icon_list three">
+                <button class="icon_list three postion_fixed">
                     <div class="list_font_icon">
                         <i class="fab fa-facebook-messenger"></i>
                     </div>
@@ -141,77 +143,74 @@
         </div>
         <!-- icon_touch end-->
 
-    </div>
+        <!-- contactModal -->
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content customer">
 
-    <!-- contactModal -->
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content customer">
-
-                <div class="modal-header customer">
-                    <h3 class="modal-title customer" id="contactModalLabel">Contact Us
-                        <br>
-                        <p class="title_cn">聯絡我們</p>
-                    </h3>
-                    <h5 class="modal-title">璽藝廊 Xi Gallery</h5>
-
-                </div>
-                <div class="modal-body customer">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="recipient-name" placeholder="輸入您的電子信箱">
-                        </div>
-                        <div class="form-group customer">
-                            <textarea class="form-control" id="message-text"
-                                placeholder="請輸入您的訊息，若是詢問作品，請留下作品名稱，也歡迎您留下電子信箱以外的聯絡方式。"></textarea>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer customer">
-                    <div class="info_label">
-                        <div class="map_label">
-                            <i class="fas fa-map-marker-alt"> 100 台北市中正區紹興北街3號6樓</i>
-                        </div>
-                        <div class="phone_label">
-                            <i class="fas fa-phone-alt"> +886-1234-5678</i>
-                        </div>
+                    <div class="modal-header customer">
+                        <h3 class="modal-title customer" id="contactModalLabel">Contact Us
+                            <br>
+                            <p class="title_cn">聯絡我們</p>
+                        </h3>
+                        <h5 class="modal-title">璽藝廊 Xi Gallery</h5>
 
                     </div>
-
-                    <button type="button" class="btn btn-primary text-black-50 bg-white"
-                        style="width: 8rem; border-radius: 1rem;">發送</button>
+                    <div class="modal-body customer">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="recipient-name" placeholder="輸入您的電子信箱">
+                            </div>
+                            <div class="form-group customer">
+                                <textarea class="form-control" id="message-text"
+                                    placeholder="請輸入您的訊息，若是詢問作品，請留下作品名稱，也歡迎您留下電子信箱以外的聯絡方式。"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer customer">
+                        <div class="info_label">
+                            <div class="map_label">
+                                <i class="fas fa-map-marker-alt"> 100 台北市中正區紹興北街3號6樓</i>
+                            </div>
+                            <div class="phone_label">
+                                <i class="fas fa-phone-alt"> +886-1234-5678</i>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary text-black-50 bg-white"
+                            style="width: 8rem; border-radius: 1rem;">發送</button>
+                        <i class="fas fa-angle-left"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- contactmodal end-->
+        <!-- contactmodal end-->
 
-    <!-- phoneModal -->
-    <div class="modal fade" id="phoneModal" tabindex="-1" role="dialog" aria-labelledby="phoneModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content customer">
-                <div class="modal-header customer">
-                    <h3 class="modal-title customer" id="phoneModalLabel">Contact Us
-                        <br>
-                        <p class="title_cn">聯絡璽藝廊</p>
-                    </h3>
+        <!-- phoneModal -->
+        <div class="modal fade" id="phoneModal" tabindex="-1" role="dialog" aria-labelledby="phoneModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content customer">
+                    <div class="modal-header customer">
+                        <h3 class="modal-title customer" id="phoneModalLabel">Contact Us
+                            <br>
+                            <p class="title_cn">聯絡璽藝廊</p>
+                        </h3>
 
-                </div>
-                <div class="modal-body">
-                    <div class="phone text-white">
-                        <i>02-1234-5678</i>
                     </div>
-                </div>
+                    <div class="modal-body">
+                        <div class="phone text-white">
+                            <i>02-1234-5678</i>
+                        </div>
+                    </div>
 
+                </div>
             </div>
         </div>
+
+        <!-- phoneModal end-->
     </div>
-
-    <!-- phoneModal end-->
-
     <!-- fonticon.js -->
     <script type="text/javascript" src="//kit.fontawesome.com/3f2a064e79.js"></script>
     <!-- fonticon.js end-->
@@ -223,6 +222,8 @@
     <!-- bootstrap -->
     <script type="text/javascript" src="./bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+
+
     <!-- bootstrap end -->
 
     <script type="text/javascript" src="./js/all.js"></script>
